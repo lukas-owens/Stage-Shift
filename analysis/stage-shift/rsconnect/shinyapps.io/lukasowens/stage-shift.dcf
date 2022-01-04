@@ -1,0 +1,14 @@
+name: stage-shift
+title:
+username:
+account: lukasowens
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5355703
+bundleId: 5399054
+url: https://lukasowens.shinyapps.io/stage-shift/
+when: 1640132118.12762
+lastSyncTime: 1640132118.12762
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: ui - Copy.R

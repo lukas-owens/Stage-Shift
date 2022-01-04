@@ -1,0 +1,80 @@
+"Page type","Derived AJCC T, 6th ed (2004-2015)","Derived AJCC M, 6th ed (2004-2015)","PSA Lab Value Recode (2010+)","Summary Interval","N","Median Cause-Spec","Cause-Spec","SE Cause-Spec","Cause-Spec Cum CI Lower","Cause-Spec Cum CI Upper"
+Survival Summary Page,T0,M0,Blank(s),132 mo,2,93.00,50.000,35.355,0.598,91.041
+Survival Summary Page,T0,M1a,Blank(s),132 mo,2,18.00,0.000,0.000, , 
+Survival Summary Page,T0,M1b,Blank(s),132 mo,12,16.00,0.000,0.000, , 
+Survival Summary Page,T0,M1c,Blank(s),132 mo,15,39.00,20.513,12.668,3.333,47.816
+Survival Summary Page,T1a,M0,Blank(s),132 mo,2237, ,96.581,0.429,95.631,97.327
+Survival Summary Page,T1a,M1b,Blank(s),132 mo,5,23.00,0.000,0.000, , 
+Survival Summary Page,T1a,MX,Blank(s),132 mo,64, ,95.079,2.771,85.511,98.386
+Survival Summary Page,T1b,M0,Blank(s),132 mo,917, ,87.941,1.202,85.360,90.093
+Survival Summary Page,T1b,M1a,Blank(s),132 mo,1, , , , , 
+Survival Summary Page,T1b,M1b,Blank(s),132 mo,47,28.00,0.000,0.000, , 
+Survival Summary Page,T1b,M1c,Blank(s),132 mo,11,17.00,0.000,0.000, , 
+Survival Summary Page,T1b,MX,Blank(s),132 mo,44, ,87.738,5.151,72.959,94.717
+Survival Summary Page,T1c,M0,Blank(s),132 mo,74314, ,94.802,0.090,94.622,94.976
+Survival Summary Page,T1c,M1a,Blank(s),132 mo,91,120.00,47.292,5.753,35.715,58.005
+Survival Summary Page,T1c,M1b,Blank(s),132 mo,897,45.00,24.800,1.686,21.563,28.161
+Survival Summary Page,T1c,M1c,Blank(s),132 mo,299,38.00,28.717,2.876,23.217,34.437
+Survival Summary Page,T1c,M1NOS,Blank(s),132 mo,27,48.00,9.522,8.145,0.825,31.577
+Survival Summary Page,T1c,MX,Blank(s),132 mo,1987, ,90.043,0.747,88.474,91.409
+Survival Summary Page,T1NOS,M0,Blank(s),132 mo,497, ,92.722,1.269,89.782,94.840
+Survival Summary Page,T1NOS,M1a,Blank(s),132 mo,2,6.00, , , , 
+Survival Summary Page,T1NOS,M1b,Blank(s),132 mo,19,25.00,6.634,6.392,0.433,25.858
+Survival Summary Page,T1NOS,M1c,Blank(s),132 mo,8,28.00,17.857,16.043,0.833,53.799
+Survival Summary Page,T1NOS,MX,Blank(s),132 mo,27, ,96.154,3.771,75.694,99.449
+Survival Summary Page,T2a,M0,Blank(s),132 mo,14375, ,97.578,0.138,97.292,97.834
+Survival Summary Page,T2a,M1a,Blank(s),132 mo,2,50.00,0.000,0.000, , 
+Survival Summary Page,T2a,M1b,Blank(s),132 mo,30, ,53.736,9.477,33.838,70.047
+Survival Summary Page,T2a,M1c,Blank(s),132 mo,4,81.00, , , , 
+Survival Summary Page,T2a,M1NOS,Blank(s),132 mo,1,86.00,0.000,0.000, , 
+Survival Summary Page,T2a,MX,Blank(s),132 mo,135, ,96.056,1.731,90.776,98.340
+Survival Summary Page,T2b,M0,Blank(s),132 mo,4079, ,94.060,0.408,93.207,94.809
+Survival Summary Page,T2b,M1a,Blank(s),132 mo,5, ,100.000,0.000, , 
+Survival Summary Page,T2b,M1b,Blank(s),132 mo,36,64.00,22.102,8.539,8.268,40.090
+Survival Summary Page,T2b,M1c,Blank(s),132 mo,9,25.00,22.222,13.858,3.371,51.307
+Survival Summary Page,T2b,M1NOS,Blank(s),132 mo,3,76.00,50.000,35.355,0.598,91.041
+Survival Summary Page,T2b,MX,Blank(s),132 mo,54, ,87.213,4.901,73.636,94.067
+Survival Summary Page,T2c,M0,Blank(s),132 mo,50396, ,97.269,0.077,97.113,97.416
+Survival Summary Page,T2c,M1a,Blank(s),132 mo,26,79.00,32.314,10.912,13.140,53.324
+Survival Summary Page,T2c,M1b,Blank(s),132 mo,370,40.00,22.941,2.430,18.357,27.842
+Survival Summary Page,T2c,M1c,Blank(s),132 mo,130,24.00,19.039,4.033,11.878,27.489
+Survival Summary Page,T2c,M1NOS,Blank(s),132 mo,14,49.00,21.825,13.066,3.725,49.453
+Survival Summary Page,T2c,MX,Blank(s),132 mo,511, ,93.887,1.136,91.222,95.762
+Survival Summary Page,T2NOS,M0,Blank(s),132 mo,50383, ,94.332,0.112,94.108,94.547
+Survival Summary Page,T2NOS,M1a,Blank(s),132 mo,79,47.00,21.539,5.327,12.181,32.640
+Survival Summary Page,T2NOS,M1b,Blank(s),132 mo,1050,44.00,21.934,1.475,19.112,24.885
+Survival Summary Page,T2NOS,M1c,Blank(s),132 mo,346,33.00,18.225,2.371,13.843,23.094
+Survival Summary Page,T2NOS,M1NOS,Blank(s),132 mo,44,79.00,22.399,9.265,7.637,41.884
+Survival Summary Page,T2NOS,MX,Blank(s),132 mo,1682, ,89.638,0.818,87.913,91.129
+Survival Summary Page,T3a,M0,Blank(s),132 mo,13320, ,93.010,0.240,92.525,93.464
+Survival Summary Page,T3a,M1a,Blank(s),132 mo,14,71.00,25.962,12.785,6.337,51.726
+Survival Summary Page,T3a,M1b,Blank(s),132 mo,101,61.00,30.108,4.790,21.088,39.622
+Survival Summary Page,T3a,M1c,Blank(s),132 mo,22,54.00,18.111,8.765,5.096,37.502
+Survival Summary Page,T3a,M1NOS,Blank(s),132 mo,1,12.00,0.000,0.000, , 
+Survival Summary Page,T3a,MX,Blank(s),132 mo,146, ,90.182,2.738,83.211,94.355
+Survival Summary Page,T3b,M0,Blank(s),132 mo,5862, ,83.351,0.530,82.283,84.360
+Survival Summary Page,T3b,M1a,Blank(s),132 mo,29,65.00,33.422,8.914,17.105,50.650
+Survival Summary Page,T3b,M1b,Blank(s),132 mo,186,39.00,16.308,3.064,10.841,22.759
+Survival Summary Page,T3b,M1c,Blank(s),132 mo,69,33.00,26.894,5.594,16.674,38.183
+Survival Summary Page,T3b,M1NOS,Blank(s),132 mo,6,120.00,31.250,24.540,1.267,73.366
+Survival Summary Page,T3b,MX,Blank(s),132 mo,89, ,73.558,4.908,62.491,81.825
+Survival Summary Page,T3NOS,M0,Blank(s),132 mo,947, ,74.806,1.577,71.557,77.743
+Survival Summary Page,T3NOS,M1a,Blank(s),132 mo,14, ,51.429,14.416,21.889,74.746
+Survival Summary Page,T3NOS,M1b,Blank(s),132 mo,182,40.00,17.681,3.464,11.502,24.951
+Survival Summary Page,T3NOS,M1c,Blank(s),132 mo,56,30.00,16.371,5.256,7.714,27.855
+Survival Summary Page,T3NOS,M1NOS,Blank(s),132 mo,7, ,57.143,18.704,17.187,83.708
+Survival Summary Page,T3NOS,MX,Blank(s),132 mo,52,103.00,43.522,7.400,28.887,57.275
+Survival Summary Page,T4,M0,Blank(s),132 mo,1672, ,74.204,1.145,71.880,76.369
+Survival Summary Page,T4,M1a,Blank(s),132 mo,64,40.00,19.360,5.773,9.595,31.657
+Survival Summary Page,T4,M1b,Blank(s),132 mo,560,29.00,12.272,1.581,9.384,15.568
+Survival Summary Page,T4,M1c,Blank(s),132 mo,251,20.00,5.449,1.938,2.479,10.127
+Survival Summary Page,T4,M1NOS,Blank(s),132 mo,42,37.00,5.003,4.338,0.508,18.303
+Survival Summary Page,T4,MX,Blank(s),132 mo,79,99.00,43.737,6.401,31.042,55.732
+Survival Summary Page,NA,NA,Blank(s),132 mo,34,54.00,37.237,9.202,19.929,54.606
+Survival Summary Page,TX,M0,Blank(s),132 mo,1097, ,77.720,1.433,74.758,80.381
+Survival Summary Page,TX,M1a,Blank(s),132 mo,58,50.00,23.365,5.863,13.013,35.464
+Survival Summary Page,TX,M1b,Blank(s),132 mo,1078,29.00,12.729,1.225,10.448,15.243
+Survival Summary Page,TX,M1c,Blank(s),132 mo,528,21.00,7.969,1.502,5.354,11.238
+Survival Summary Page,TX,M1NOS,Blank(s),132 mo,68,24.00,13.034,4.718,5.578,23.727
+Survival Summary Page,TX,MX,Blank(s),132 mo,4274, ,77.307,0.731,75.836,78.701
+Survival Summary Page,Blank(s),Blank(s),Blank(s),132 mo,144686, ,91.068,0.079,90.913,91.222

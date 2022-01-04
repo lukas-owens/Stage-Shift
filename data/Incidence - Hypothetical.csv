@@ -1,0 +1,896 @@
+"Site recode ICD-O-3/WHO 2008","Age recode with <1 year olds","Summary stage 2000 (1998-2017)","Crude Rate","Standard Error","Lower Confidence Interval","Upper Confidence Interval","Count","Population"
+All Sites,50-54 years,In situ,8.674,0.213,8.260,9.102,1653,19057826
+All Sites,50-54 years,Localized,281.354,1.215,278.978,283.746,53620,19057826
+All Sites,50-54 years,Regional,132.271,0.833,130.643,133.914,25208,19057826
+All Sites,50-54 years,Distant,98.437,0.719,97.034,99.856,18760,19057826
+All Sites,50-54 years,Unknown/unstaged,13.417,0.265,12.902,13.947,2557,19057826
+All Sites,50-54 years,Blank(s),47.099,0.497,46.129,48.083,8976,19057826
+All Sites,60-64 years,In situ,26.875,0.477,25.948,27.826,3175,11814014
+All Sites,60-64 years,Localized,642.474,2.332,637.912,647.061,75902,11814014
+All Sites,60-64 years,Regional,269.781,1.511,266.828,272.760,31872,11814014
+All Sites,60-64 years,Distant,244.413,1.438,241.602,247.249,28875,11814014
+All Sites,60-64 years,Unknown/unstaged,32.555,0.525,31.534,33.600,3846,11814014
+All Sites,60-64 years,Blank(s),103.030,0.934,101.208,104.877,12172,11814014
+All Sites,70-74 years,In situ,59.282,0.888,57.553,61.049,4452,7509895
+All Sites,70-74 years,Localized,1028.044,3.700,1020.805,1035.321,77205,7509895
+All Sites,70-74 years,Regional,400.711,2.310,396.197,405.265,30093,7509895
+All Sites,70-74 years,Distant,447.556,2.441,442.784,452.367,33611,7509895
+All Sites,70-74 years,Unknown/unstaged,78.696,1.024,76.702,80.729,5910,7509895
+All Sites,70-74 years,Blank(s),203.784,1.647,200.568,207.039,15304,7509895
+Oral Cavity and Pharynx,50-54 years,Localized,4.004,0.145,3.725,4.298,763,19057826
+Oral Cavity and Pharynx,50-54 years,Regional,4.093,0.147,3.811,4.390,780,19057826
+Oral Cavity and Pharynx,50-54 years,Distant,1.307,0.083,1.149,1.479,249,19057826
+Oral Cavity and Pharynx,50-54 years,Unknown/unstaged,0.236,0.035,0.172,0.316,45,19057826
+Oral Cavity and Pharynx,50-54 years,Blank(s),9.791,0.227,9.352,10.246,1866,19057826
+Oral Cavity and Pharynx,60-64 years,Localized,7.711,0.255,7.219,8.229,911,11814014
+Oral Cavity and Pharynx,60-64 years,Regional,7.288,0.248,6.809,7.791,861,11814014
+Oral Cavity and Pharynx,60-64 years,Distant,2.429,0.143,2.156,2.727,287,11814014
+Oral Cavity and Pharynx,60-64 years,Unknown/unstaged,0.423,0.060,0.314,0.558,50,11814014
+Oral Cavity and Pharynx,60-64 years,Blank(s),15.168,0.358,14.474,15.887,1792,11814014
+Oral Cavity and Pharynx,70-74 years,Localized,11.265,0.387,10.519,12.051,846,7509895
+Oral Cavity and Pharynx,70-74 years,Regional,8.056,0.328,7.427,8.724,605,7509895
+Oral Cavity and Pharynx,70-74 years,Distant,2.610,0.186,2.257,3.002,196,7509895
+Oral Cavity and Pharynx,70-74 years,Unknown/unstaged,0.945,0.112,0.738,1.193,71,7509895
+Oral Cavity and Pharynx,70-74 years,Blank(s),19.175,0.505,18.197,20.191,1440,7509895
+Lip,50-54 years,Localized,0.693,0.060,0.580,0.821,132,19057826
+Lip,50-54 years,Regional,0.021,0.010,0.006,0.054,4,19057826
+Lip,50-54 years,Distant,0.021,0.010,0.006,0.054,4,19057826
+Lip,50-54 years,Unknown/unstaged,0.031,0.013,0.012,0.069,6,19057826
+Lip,60-64 years,Localized,1.422,0.110,1.215,1.654,168,11814014
+Lip,60-64 years,Regional,0.076,0.025,0.035,0.145,9,11814014
+Lip,60-64 years,Distant,0.034,0.017,0.009,0.087,4,11814014
+Lip,60-64 years,Unknown/unstaged,0.059,0.022,0.024,0.122,7,11814014
+Lip,70-74 years,Localized,3.435,0.214,3.029,3.881,258,7509895
+Lip,70-74 years,Regional,0.173,0.048,0.092,0.296,13,7509895
+Lip,70-74 years,Distant,0.053,0.027,0.015,0.136,4,7509895
+Lip,70-74 years,Unknown/unstaged,0.280,0.061,0.173,0.427,21,7509895
+Tongue,50-54 years,Localized,1.936,0.101,1.744,2.144,369,19057826
+Tongue,50-54 years,Regional,2.891,0.123,2.655,3.143,551,19057826
+Tongue,50-54 years,Distant,0.950,0.071,0.816,1.099,181,19057826
+Tongue,50-54 years,Unknown/unstaged,0.115,0.025,0.072,0.175,22,19057826
+Tongue,60-64 years,Localized,3.597,0.175,3.263,3.956,425,11814014
+Tongue,60-64 years,Regional,5.273,0.211,4.867,5.704,623,11814014
+Tongue,60-64 years,Distant,1.744,0.121,1.514,1.999,206,11814014
+Tongue,60-64 years,Unknown/unstaged,0.212,0.042,0.137,0.312,25,11814014
+Tongue,70-74 years,Localized,4.740,0.251,4.261,5.259,356,7509895
+Tongue,70-74 years,Regional,5.007,0.258,4.513,5.539,376,7509895
+Tongue,70-74 years,Distant,1.611,0.146,1.337,1.925,121,7509895
+Tongue,70-74 years,Unknown/unstaged,0.306,0.064,0.194,0.460,23,7509895
+Salivary Gland,50-54 years,Localized,0.845,0.067,0.719,0.986,161,19057826
+Salivary Gland,50-54 years,Regional,0.477,0.050,0.384,0.586,91,19057826
+Salivary Gland,50-54 years,Distant,0.257,0.037,0.190,0.340,49,19057826
+Salivary Gland,50-54 years,Unknown/unstaged,0.063,0.018,0.033,0.110,12,19057826
+Salivary Gland,60-64 years,Localized,1.515,0.113,1.301,1.754,179,11814014
+Salivary Gland,60-64 years,Regional,0.897,0.087,0.735,1.085,106,11814014
+Salivary Gland,60-64 years,Distant,0.525,0.067,0.402,0.673,62,11814014
+Salivary Gland,60-64 years,Unknown/unstaged,0.076,0.025,0.035,0.145,9,11814014
+Salivary Gland,70-74 years,Localized,1.731,0.152,1.446,2.055,130,7509895
+Salivary Gland,70-74 years,Regional,1.704,0.151,1.422,2.027,128,7509895
+Salivary Gland,70-74 years,Distant,0.812,0.104,0.621,1.043,61,7509895
+Salivary Gland,70-74 years,Unknown/unstaged,0.200,0.052,0.112,0.329,15,7509895
+Floor of Mouth,50-54 years,Localized,0.530,0.053,0.432,0.644,101,19057826
+Floor of Mouth,50-54 years,Regional,0.703,0.061,0.589,0.833,134,19057826
+Floor of Mouth,50-54 years,Distant,0.079,0.020,0.044,0.130,15,19057826
+Floor of Mouth,50-54 years,Unknown/unstaged,0.026,0.012,0.009,0.061,5,19057826
+Floor of Mouth,60-64 years,Localized,1.177,0.100,0.989,1.389,139,11814014
+Floor of Mouth,60-64 years,Regional,1.041,0.094,0.865,1.242,123,11814014
+Floor of Mouth,60-64 years,Distant,0.127,0.033,0.071,0.209,15,11814014
+Floor of Mouth,60-64 years,Unknown/unstaged,0.076,0.025,0.035,0.145,9,11814014
+Floor of Mouth,70-74 years,Localized,1.358,0.134,1.107,1.649,102,7509895
+Floor of Mouth,70-74 years,Regional,1.172,0.125,0.940,1.444,88,7509895
+Floor of Mouth,70-74 years,Distant,0.133,0.042,0.064,0.245,10,7509895
+Floor of Mouth,70-74 years,Unknown/unstaged,0.160,0.046,0.083,0.279,12,7509895
+Gum and Other Mouth,50-54 years,Blank(s),2.031,0.103,1.833,2.243,387,19057826
+Gum and Other Mouth,60-64 years,Blank(s),3.911,0.182,3.562,4.284,462,11814014
+Gum and Other Mouth,70-74 years,Blank(s),7.191,0.309,6.597,7.823,540,7509895
+Nasopharynx,50-54 years,Blank(s),1.291,0.082,1.135,1.463,246,19057826
+Nasopharynx,60-64 years,Blank(s),1.778,0.123,1.545,2.035,210,11814014
+Nasopharynx,70-74 years,Blank(s),1.891,0.159,1.593,2.229,142,7509895
+Tonsil,50-54 years,Blank(s),4.413,0.152,4.120,4.721,841,19057826
+Tonsil,60-64 years,Blank(s),5.358,0.213,4.949,5.792,633,11814014
+Tonsil,70-74 years,Blank(s),4.048,0.232,3.606,4.530,304,7509895
+Oropharynx,50-54 years,Blank(s),0.624,0.057,0.517,0.747,119,19057826
+Oropharynx,60-64 years,Blank(s),1.143,0.098,0.958,1.353,135,11814014
+Oropharynx,70-74 years,Blank(s),1.318,0.132,1.071,1.605,99,7509895
+Hypopharynx,50-54 years,Blank(s),1.091,0.076,0.948,1.250,208,19057826
+Hypopharynx,60-64 years,Blank(s),2.319,0.140,2.053,2.611,274,11814014
+Hypopharynx,70-74 years,Blank(s),3.449,0.214,3.042,3.895,259,7509895
+Other Oral Cavity and Pharynx,50-54 years,Blank(s),0.341,0.042,0.263,0.435,65,19057826
+Other Oral Cavity and Pharynx,60-64 years,Blank(s),0.660,0.075,0.522,0.824,78,11814014
+Other Oral Cavity and Pharynx,70-74 years,Blank(s),1.278,0.130,1.035,1.561,96,7509895
+Digestive System,50-54 years,Localized,35.030,0.429,34.195,35.881,6676,19057826
+Digestive System,50-54 years,Regional,31.719,0.408,30.925,32.529,6045,19057826
+Digestive System,50-54 years,Distant,25.428,0.365,24.717,26.154,4846,19057826
+Digestive System,50-54 years,Unknown/unstaged,4.770,0.158,4.465,5.090,909,19057826
+Digestive System,50-54 years,Blank(s),3.794,0.141,3.522,4.081,723,19057826
+Digestive System,60-64 years,Localized,66.303,0.749,64.842,67.787,7833,11814014
+Digestive System,60-64 years,Regional,68.004,0.759,66.525,69.508,8034,11814014
+Digestive System,60-64 years,Distant,55.866,0.688,54.526,57.230,6600,11814014
+Digestive System,60-64 years,Unknown/unstaged,9.929,0.290,9.369,10.514,1173,11814014
+Digestive System,60-64 years,Blank(s),10.454,0.297,9.879,11.053,1235,11814014
+Digestive System,70-74 years,Localized,134.343,1.337,131.734,136.990,10089,7509895
+Digestive System,70-74 years,Regional,134.769,1.340,132.156,137.420,10121,7509895
+Digestive System,70-74 years,Distant,100.867,1.159,98.608,103.164,7575,7509895
+Digestive System,70-74 years,Unknown/unstaged,22.810,0.551,21.742,23.916,1713,7509895
+Digestive System,70-74 years,Blank(s),22.024,0.542,20.976,23.112,1654,7509895
+Esophagus,50-54 years,Localized,1.002,0.073,0.865,1.155,191,19057826
+Esophagus,50-54 years,Regional,1.968,0.102,1.774,2.177,375,19057826
+Esophagus,50-54 years,Distant,2.178,0.107,1.973,2.398,415,19057826
+Esophagus,50-54 years,Unknown/unstaged,0.336,0.042,0.259,0.429,64,19057826
+Esophagus,60-64 years,Localized,3.022,0.160,2.716,3.352,357,11814014
+Esophagus,60-64 years,Regional,4.562,0.197,4.185,4.964,539,11814014
+Esophagus,60-64 years,Distant,5.400,0.214,4.989,5.836,638,11814014
+Esophagus,60-64 years,Unknown/unstaged,1.160,0.099,0.974,1.371,137,11814014
+Esophagus,70-74 years,Localized,6.392,0.292,5.832,6.990,480,7509895
+Esophagus,70-74 years,Regional,7.910,0.325,7.286,8.572,594,7509895
+Esophagus,70-74 years,Distant,7.297,0.312,6.699,7.934,548,7509895
+Esophagus,70-74 years,Unknown/unstaged,2.490,0.182,2.146,2.874,187,7509895
+Stomach,50-54 years,Localized,1.642,0.093,1.465,1.835,313,19057826
+Stomach,50-54 years,Regional,2.366,0.111,2.153,2.595,451,19057826
+Stomach,50-54 years,Distant,2.833,0.122,2.600,3.083,540,19057826
+Stomach,50-54 years,Unknown/unstaged,0.451,0.049,0.361,0.557,86,19057826
+Stomach,60-64 years,Localized,4.181,0.188,3.821,4.567,494,11814014
+Stomach,60-64 years,Regional,5.341,0.213,4.932,5.775,631,11814014
+Stomach,60-64 years,Distant,5.917,0.224,5.486,6.372,699,11814014
+Stomach,60-64 years,Unknown/unstaged,1.058,0.095,0.881,1.261,125,11814014
+Stomach,70-74 years,Localized,9.587,0.357,8.900,10.314,720,7509895
+Stomach,70-74 years,Regional,12.224,0.403,11.446,13.041,918,7509895
+Stomach,70-74 years,Distant,11.705,0.395,10.943,12.505,879,7509895
+Stomach,70-74 years,Unknown/unstaged,2.543,0.184,2.195,2.931,191,7509895
+Small Intestine,50-54 years,Localized,0.908,0.069,0.778,1.054,173,19057826
+Small Intestine,50-54 years,Regional,1.118,0.077,0.973,1.278,213,19057826
+Small Intestine,50-54 years,Distant,0.745,0.063,0.628,0.878,142,19057826
+Small Intestine,50-54 years,Unknown/unstaged,0.073,0.020,0.040,0.123,14,19057826
+Small Intestine,60-64 years,Localized,1.532,0.114,1.317,1.772,181,11814014
+Small Intestine,60-64 years,Regional,2.057,0.132,1.806,2.332,243,11814014
+Small Intestine,60-64 years,Distant,1.608,0.117,1.388,1.854,190,11814014
+Small Intestine,60-64 years,Unknown/unstaged,0.262,0.047,0.178,0.372,31,11814014
+Small Intestine,70-74 years,Localized,2.716,0.190,2.356,3.116,204,7509895
+Small Intestine,70-74 years,Regional,3.169,0.205,2.779,3.598,238,7509895
+Small Intestine,70-74 years,Distant,2.397,0.179,2.059,2.774,180,7509895
+Small Intestine,70-74 years,Unknown/unstaged,0.559,0.086,0.403,0.756,42,7509895
+Colon and Rectum,50-54 years,Localized,23.838,0.354,23.150,24.541,4543,19057826
+Colon and Rectum,50-54 years,Regional,18.491,0.311,17.886,19.112,3524,19057826
+Colon and Rectum,50-54 years,Distant,10.689,0.237,10.229,11.163,2037,19057826
+Colon and Rectum,50-54 years,Unknown/unstaged,1.606,0.092,1.431,1.796,306,19057826
+Colon and Rectum,60-64 years,Localized,45.776,0.622,44.564,47.013,5408,11814014
+Colon and Rectum,60-64 years,Regional,40.046,0.582,38.913,41.203,4731,11814014
+Colon and Rectum,60-64 years,Distant,21.965,0.431,21.128,22.827,2595,11814014
+Colon and Rectum,60-64 years,Unknown/unstaged,3.166,0.164,2.853,3.503,374,11814014
+Colon and Rectum,70-74 years,Localized,97.085,1.137,94.869,99.340,7291,7509895
+Colon and Rectum,70-74 years,Regional,83.809,1.056,81.752,85.906,6294,7509895
+Colon and Rectum,70-74 years,Distant,40.427,0.734,39.001,41.891,3036,7509895
+Colon and Rectum,70-74 years,Unknown/unstaged,7.510,0.316,6.903,8.156,564,7509895
+Colon excluding Rectum,50-54 years,Localized,13.050,0.262,12.542,13.573,2487,19057826
+Colon excluding Rectum,50-54 years,Regional,11.943,0.250,11.457,12.444,2276,19057826
+Colon excluding Rectum,50-54 years,Distant,7.577,0.199,7.191,7.978,1444,19057826
+Colon excluding Rectum,50-54 years,Unknown/unstaged,0.766,0.063,0.647,0.901,146,19057826
+Colon excluding Rectum,60-64 years,Localized,29.617,0.501,28.644,30.615,3499,11814014
+Colon excluding Rectum,60-64 years,Regional,28.102,0.488,27.154,29.075,3320,11814014
+Colon excluding Rectum,60-64 years,Distant,16.320,0.372,15.599,17.065,1928,11814014
+Colon excluding Rectum,60-64 years,Unknown/unstaged,1.845,0.125,1.608,2.107,218,11814014
+Colon excluding Rectum,70-74 years,Localized,70.227,0.967,68.345,72.149,5274,7509895
+Colon excluding Rectum,70-74 years,Regional,64.701,0.928,62.895,66.547,4859,7509895
+Colon excluding Rectum,70-74 years,Distant,30.986,0.642,29.739,32.271,2327,7509895
+Colon excluding Rectum,70-74 years,Unknown/unstaged,5.380,0.268,4.868,5.931,404,7509895
+Cecum,50-54 years,Localized,1.721,0.095,1.540,1.918,328,19057826
+Cecum,50-54 years,Regional,2.356,0.111,2.143,2.584,449,19057826
+Cecum,50-54 years,Distant,1.485,0.088,1.317,1.668,283,19057826
+Cecum,50-54 years,Unknown/unstaged,0.052,0.017,0.025,0.096,10,19057826
+Cecum,60-64 years,Localized,5.358,0.213,4.949,5.792,633,11814014
+Cecum,60-64 years,Regional,6.628,0.237,6.172,7.109,783,11814014
+Cecum,60-64 years,Distant,3.894,0.182,3.546,4.266,460,11814014
+Cecum,60-64 years,Unknown/unstaged,0.135,0.034,0.077,0.220,16,11814014
+Cecum,70-74 years,Localized,15.420,0.453,14.544,16.334,1158,7509895
+Cecum,70-74 years,Regional,15.966,0.461,15.075,16.896,1199,7509895
+Cecum,70-74 years,Distant,8.149,0.329,7.516,8.821,612,7509895
+Cecum,70-74 years,Unknown/unstaged,0.413,0.074,0.280,0.586,31,7509895
+Appendix,50-54 years,Localized,0.346,0.043,0.268,0.441,66,19057826
+Appendix,50-54 years,Regional,0.388,0.045,0.305,0.487,74,19057826
+Appendix,50-54 years,Distant,0.483,0.050,0.389,0.592,92,19057826
+Appendix,50-54 years,Unknown/unstaged,0.031,0.013,0.012,0.069,6,19057826
+Appendix,60-64 years,Localized,0.449,0.062,0.336,0.587,53,11814014
+Appendix,60-64 years,Regional,0.449,0.062,0.336,0.587,53,11814014
+Appendix,60-64 years,Distant,0.635,0.073,0.499,0.796,75,11814014
+Appendix,60-64 years,Unknown/unstaged,0.068,0.024,0.029,0.133,8,11814014
+Appendix,70-74 years,Localized,0.666,0.094,0.494,0.878,50,7509895
+Appendix,70-74 years,Regional,0.546,0.085,0.392,0.741,41,7509895
+Appendix,70-74 years,Distant,0.533,0.084,0.381,0.725,40,7509895
+Appendix,70-74 years,Unknown/unstaged,0.107,0.038,0.046,0.210,8,7509895
+Ascending Colon,50-54 years,Localized,1.653,0.093,1.475,1.846,315,19057826
+Ascending Colon,50-54 years,Regional,1.810,0.097,1.624,2.012,345,19057826
+Ascending Colon,50-54 years,Distant,1.107,0.076,0.963,1.267,211,19057826
+Ascending Colon,50-54 years,Unknown/unstaged,0.037,0.014,0.015,0.076,7,19057826
+Ascending Colon,60-64 years,Localized,5.003,0.206,4.607,5.423,591,11814014
+Ascending Colon,60-64 years,Regional,5.121,0.208,4.721,5.546,605,11814014
+Ascending Colon,60-64 years,Distant,2.184,0.136,1.925,2.467,258,11814014
+Ascending Colon,60-64 years,Unknown/unstaged,0.161,0.037,0.097,0.251,19,11814014
+Ascending Colon,70-74 years,Localized,14.235,0.435,13.394,15.114,1069,7509895
+Ascending Colon,70-74 years,Regional,13.263,0.420,12.452,14.112,996,7509895
+Ascending Colon,70-74 years,Distant,4.807,0.253,4.324,5.329,361,7509895
+Ascending Colon,70-74 years,Unknown/unstaged,0.652,0.093,0.483,0.863,49,7509895
+Hepatic Flexure,50-54 years,Localized,0.425,0.047,0.338,0.528,81,19057826
+Hepatic Flexure,50-54 years,Regional,0.519,0.052,0.422,0.632,99,19057826
+Hepatic Flexure,50-54 years,Distant,0.315,0.041,0.240,0.405,60,19057826
+Hepatic Flexure,50-54 years,Unknown/unstaged,0.031,0.013,0.012,0.069,6,19057826
+Hepatic Flexure,60-64 years,Localized,1.270,0.104,1.075,1.490,150,11814014
+Hepatic Flexure,60-64 years,Regional,1.549,0.115,1.333,1.790,183,11814014
+Hepatic Flexure,60-64 years,Distant,0.736,0.079,0.590,0.908,87,11814014
+Hepatic Flexure,60-64 years,Unknown/unstaged,0.076,0.025,0.035,0.145,9,11814014
+Hepatic Flexure,70-74 years,Localized,3.862,0.227,3.430,4.333,290,7509895
+Hepatic Flexure,70-74 years,Regional,4.181,0.236,3.731,4.670,314,7509895
+Hepatic Flexure,70-74 years,Distant,1.598,0.146,1.325,1.911,120,7509895
+Hepatic Flexure,70-74 years,Unknown/unstaged,0.213,0.053,0.122,0.346,16,7509895
+Transverse Colon,50-54 years,Localized,1.028,0.073,0.890,1.183,196,19057826
+Transverse Colon,50-54 years,Regional,1.081,0.075,0.938,1.239,206,19057826
+Transverse Colon,50-54 years,Distant,0.525,0.052,0.427,0.638,100,19057826
+Transverse Colon,50-54 years,Unknown/unstaged,0.021,0.010,0.006,0.054,4,19057826
+Transverse Colon,60-64 years,Localized,2.489,0.145,2.212,2.790,294,11814014
+Transverse Colon,60-64 years,Regional,2.675,0.150,2.388,2.987,316,11814014
+Transverse Colon,60-64 years,Distant,1.295,0.105,1.098,1.517,153,11814014
+Transverse Colon,60-64 years,Unknown/unstaged,0.042,0.019,0.014,0.099,5,11814014
+Transverse Colon,70-74 years,Localized,6.631,0.297,6.062,7.240,498,7509895
+Transverse Colon,70-74 years,Regional,6.738,0.300,6.163,7.351,506,7509895
+Transverse Colon,70-74 years,Distant,2.197,0.171,1.875,2.559,165,7509895
+Transverse Colon,70-74 years,Unknown/unstaged,0.333,0.067,0.215,0.491,25,7509895
+Splenic Flexure,50-54 years,Localized,0.436,0.048,0.347,0.540,83,19057826
+Splenic Flexure,50-54 years,Regional,0.488,0.051,0.394,0.598,93,19057826
+Splenic Flexure,50-54 years,Distant,0.310,0.040,0.236,0.399,59,19057826
+Splenic Flexure,50-54 years,Unknown/unstaged,0.005,0.005,0.000,0.029,1,19057826
+Splenic Flexure,60-64 years,Localized,0.931,0.089,0.765,1.122,110,11814014
+Splenic Flexure,60-64 years,Regional,1.219,0.102,1.028,1.435,144,11814014
+Splenic Flexure,60-64 years,Distant,0.508,0.066,0.388,0.654,60,11814014
+Splenic Flexure,60-64 years,Unknown/unstaged,0.008,0.008,0.000,0.047,1,11814014
+Splenic Flexure,70-74 years,Localized,1.917,0.160,1.617,2.257,144,7509895
+Splenic Flexure,70-74 years,Regional,2.890,0.196,2.518,3.301,217,7509895
+Splenic Flexure,70-74 years,Distant,1.039,0.118,0.821,1.296,78,7509895
+Splenic Flexure,70-74 years,Unknown/unstaged,0.107,0.038,0.046,0.210,8,7509895
+Descending Colon,50-54 years,Localized,0.934,0.070,0.802,1.082,178,19057826
+Descending Colon,50-54 years,Regional,0.903,0.069,0.773,1.048,172,19057826
+Descending Colon,50-54 years,Distant,0.420,0.047,0.333,0.522,80,19057826
+Descending Colon,50-54 years,Unknown/unstaged,0.031,0.013,0.012,0.069,6,19057826
+Descending Colon,60-64 years,Localized,2.108,0.134,1.854,2.386,249,11814014
+Descending Colon,60-64 years,Regional,1.947,0.128,1.703,2.215,230,11814014
+Descending Colon,60-64 years,Distant,0.838,0.084,0.681,1.020,99,11814014
+Descending Colon,60-64 years,Unknown/unstaged,0.059,0.022,0.024,0.122,7,11814014
+Descending Colon,70-74 years,Localized,4.408,0.242,3.945,4.909,331,7509895
+Descending Colon,70-74 years,Regional,4.208,0.237,3.757,4.698,316,7509895
+Descending Colon,70-74 years,Distant,1.491,0.141,1.228,1.795,112,7509895
+Descending Colon,70-74 years,Unknown/unstaged,0.173,0.048,0.092,0.296,13,7509895
+Sigmoid Colon,50-54 years,Localized,6.344,0.182,5.991,6.712,1209,19057826
+Sigmoid Colon,50-54 years,Regional,4.219,0.149,3.932,4.521,804,19057826
+Sigmoid Colon,50-54 years,Distant,2.351,0.111,2.138,2.579,448,19057826
+Sigmoid Colon,50-54 years,Unknown/unstaged,0.199,0.032,0.141,0.274,38,19057826
+Sigmoid Colon,60-64 years,Localized,11.563,0.313,10.957,12.192,1366,11814014
+Sigmoid Colon,60-64 years,Regional,8.033,0.261,7.530,8.561,949,11814014
+Sigmoid Colon,60-64 years,Distant,4.689,0.199,4.307,5.097,554,11814014
+Sigmoid Colon,60-64 years,Unknown/unstaged,0.381,0.057,0.278,0.510,45,11814014
+Sigmoid Colon,70-74 years,Localized,22.144,0.543,21.092,23.235,1663,7509895
+Sigmoid Colon,70-74 years,Regional,15.846,0.459,14.958,16.772,1190,7509895
+Sigmoid Colon,70-74 years,Distant,7.923,0.325,7.299,8.586,595,7509895
+Sigmoid Colon,70-74 years,Unknown/unstaged,0.932,0.111,0.727,1.178,70,7509895
+"Large Intestine, NOS",50-54 years,Localized,0.163,0.029,0.111,0.231,31,19057826
+"Large Intestine, NOS",50-54 years,Regional,0.178,0.031,0.124,0.249,34,19057826
+"Large Intestine, NOS",50-54 years,Distant,0.582,0.055,0.479,0.701,111,19057826
+"Large Intestine, NOS",50-54 years,Unknown/unstaged,0.357,0.043,0.277,0.452,68,19057826
+"Large Intestine, NOS",60-64 years,Localized,0.449,0.062,0.336,0.587,53,11814014
+"Large Intestine, NOS",60-64 years,Regional,0.482,0.064,0.365,0.625,57,11814014
+"Large Intestine, NOS",60-64 years,Distant,1.541,0.114,1.325,1.781,182,11814014
+"Large Intestine, NOS",60-64 years,Unknown/unstaged,0.914,0.088,0.750,1.104,108,11814014
+"Large Intestine, NOS",70-74 years,Localized,0.945,0.112,0.738,1.193,71,7509895
+"Large Intestine, NOS",70-74 years,Regional,1.065,0.119,0.845,1.326,80,7509895
+"Large Intestine, NOS",70-74 years,Distant,3.249,0.208,2.854,3.683,244,7509895
+"Large Intestine, NOS",70-74 years,Unknown/unstaged,2.450,0.181,2.109,2.831,184,7509895
+Rectum and Rectosigmoid Junction,50-54 years,Localized,10.788,0.238,10.327,11.265,2056,19057826
+Rectum and Rectosigmoid Junction,50-54 years,Regional,6.548,0.185,6.190,6.922,1248,19057826
+Rectum and Rectosigmoid Junction,50-54 years,Distant,3.112,0.128,2.866,3.372,593,19057826
+Rectum and Rectosigmoid Junction,50-54 years,Unknown/unstaged,0.840,0.066,0.715,0.980,160,19057826
+Rectum and Rectosigmoid Junction,60-64 years,Localized,16.159,0.370,15.442,16.900,1909,11814014
+Rectum and Rectosigmoid Junction,60-64 years,Regional,11.943,0.318,11.328,12.583,1411,11814014
+Rectum and Rectosigmoid Junction,60-64 years,Distant,5.646,0.219,5.225,6.091,667,11814014
+Rectum and Rectosigmoid Junction,60-64 years,Unknown/unstaged,1.320,0.106,1.121,1.545,156,11814014
+Rectum and Rectosigmoid Junction,70-74 years,Localized,26.858,0.598,25.698,28.056,2017,7509895
+Rectum and Rectosigmoid Junction,70-74 years,Regional,19.108,0.504,18.132,20.123,1435,7509895
+Rectum and Rectosigmoid Junction,70-74 years,Distant,9.441,0.355,8.759,10.162,709,7509895
+Rectum and Rectosigmoid Junction,70-74 years,Unknown/unstaged,2.131,0.168,1.813,2.487,160,7509895
+Rectosigmoid Junction,50-54 years,Localized,2.020,0.103,1.823,2.232,385,19057826
+Rectosigmoid Junction,50-54 years,Regional,2.109,0.105,1.908,2.326,402,19057826
+Rectosigmoid Junction,50-54 years,Distant,1.086,0.075,0.943,1.245,207,19057826
+Rectosigmoid Junction,50-54 years,Unknown/unstaged,0.089,0.022,0.052,0.143,17,19057826
+Rectosigmoid Junction,60-64 years,Localized,3.470,0.171,3.143,3.823,410,11814014
+Rectosigmoid Junction,60-64 years,Regional,3.724,0.178,3.384,4.089,440,11814014
+Rectosigmoid Junction,60-64 years,Distant,1.955,0.129,1.711,2.224,231,11814014
+Rectosigmoid Junction,60-64 years,Unknown/unstaged,0.262,0.047,0.178,0.372,31,11814014
+Rectosigmoid Junction,70-74 years,Localized,6.738,0.300,6.163,7.351,506,7509895
+Rectosigmoid Junction,70-74 years,Regional,6.285,0.289,5.731,6.878,472,7509895
+Rectosigmoid Junction,70-74 years,Distant,3.236,0.208,2.842,3.669,243,7509895
+Rectosigmoid Junction,70-74 years,Unknown/unstaged,0.360,0.069,0.237,0.523,27,7509895
+Rectum,50-54 years,Localized,8.768,0.214,8.353,9.199,1671,19057826
+Rectum,50-54 years,Regional,4.439,0.153,4.145,4.749,846,19057826
+Rectum,50-54 years,Distant,2.025,0.103,1.828,2.238,386,19057826
+Rectum,50-54 years,Unknown/unstaged,0.750,0.063,0.632,0.884,143,19057826
+Rectum,60-64 years,Localized,12.688,0.328,12.054,13.347,1499,11814014
+Rectum,60-64 years,Regional,8.219,0.264,7.710,8.753,971,11814014
+Rectum,60-64 years,Distant,3.691,0.177,3.352,4.054,436,11814014
+Rectum,60-64 years,Unknown/unstaged,1.058,0.095,0.881,1.261,125,11814014
+Rectum,70-74 years,Localized,20.120,0.518,19.118,21.161,1511,7509895
+Rectum,70-74 years,Regional,12.823,0.413,12.026,13.659,963,7509895
+Rectum,70-74 years,Distant,6.205,0.287,5.654,6.795,466,7509895
+Rectum,70-74 years,Unknown/unstaged,1.771,0.154,1.483,2.099,133,7509895
+"Anus, Anal Canal and Anorectum",50-54 years,Localized,1.711,0.095,1.530,1.907,326,19057826
+"Anus, Anal Canal and Anorectum",50-54 years,Regional,0.950,0.071,0.816,1.099,181,19057826
+"Anus, Anal Canal and Anorectum",50-54 years,Distant,0.409,0.046,0.324,0.511,78,19057826
+"Anus, Anal Canal and Anorectum",50-54 years,Unknown/unstaged,0.157,0.029,0.106,0.225,30,19057826
+"Anus, Anal Canal and Anorectum",60-64 years,Localized,1.964,0.129,1.719,2.233,232,11814014
+"Anus, Anal Canal and Anorectum",60-64 years,Regional,1.431,0.110,1.223,1.663,169,11814014
+"Anus, Anal Canal and Anorectum",60-64 years,Distant,0.449,0.062,0.336,0.587,53,11814014
+"Anus, Anal Canal and Anorectum",60-64 years,Unknown/unstaged,0.152,0.036,0.090,0.241,18,11814014
+"Anus, Anal Canal and Anorectum",70-74 years,Localized,2.650,0.188,2.294,3.045,199,7509895
+"Anus, Anal Canal and Anorectum",70-74 years,Regional,1.372,0.135,1.119,1.663,103,7509895
+"Anus, Anal Canal and Anorectum",70-74 years,Distant,0.732,0.099,0.552,0.953,55,7509895
+"Anus, Anal Canal and Anorectum",70-74 years,Unknown/unstaged,0.280,0.061,0.173,0.427,21,7509895
+Liver and Intrahepatic Bile Duct,50-54 years,Localized,5.252,0.166,4.932,5.588,1001,19057826
+Liver and Intrahepatic Bile Duct,50-54 years,Regional,3.542,0.136,3.280,3.819,675,19057826
+Liver and Intrahepatic Bile Duct,50-54 years,Distant,2.288,0.110,2.078,2.513,436,19057826
+Liver and Intrahepatic Bile Duct,50-54 years,Unknown/unstaged,1.532,0.090,1.361,1.718,292,19057826
+Liver and Intrahepatic Bile Duct,60-64 years,Localized,7.880,0.258,7.382,8.403,931,11814014
+Liver and Intrahepatic Bile Duct,60-64 years,Regional,5.358,0.213,4.949,5.792,633,11814014
+Liver and Intrahepatic Bile Duct,60-64 years,Distant,3.657,0.176,3.320,4.018,432,11814014
+Liver and Intrahepatic Bile Duct,60-64 years,Unknown/unstaged,2.218,0.137,1.957,2.503,262,11814014
+Liver and Intrahepatic Bile Duct,70-74 years,Localized,11.425,0.390,10.673,12.216,858,7509895
+Liver and Intrahepatic Bile Duct,70-74 years,Regional,8.189,0.330,7.555,8.863,615,7509895
+Liver and Intrahepatic Bile Duct,70-74 years,Distant,5.353,0.267,4.842,5.903,402,7509895
+Liver and Intrahepatic Bile Duct,70-74 years,Unknown/unstaged,4.501,0.245,4.034,5.007,338,7509895
+Liver,50-54 years,Localized,5.100,0.164,4.785,5.431,972,19057826
+Liver,50-54 years,Regional,3.337,0.132,3.083,3.607,636,19057826
+Liver,50-54 years,Distant,2.041,0.103,1.843,2.254,389,19057826
+Liver,50-54 years,Unknown/unstaged,1.480,0.088,1.312,1.663,282,19057826
+Liver,60-64 years,Localized,7.533,0.253,7.047,8.045,890,11814014
+Liver,60-64 years,Regional,4.825,0.202,4.437,5.238,570,11814014
+Liver,60-64 years,Distant,3.123,0.163,2.813,3.459,369,11814014
+Liver,60-64 years,Unknown/unstaged,2.006,0.130,1.759,2.278,237,11814014
+Liver,70-74 years,Localized,10.559,0.375,9.837,11.321,793,7509895
+Liver,70-74 years,Regional,7.230,0.310,6.635,7.865,543,7509895
+Liver,70-74 years,Distant,4.328,0.240,3.870,4.825,325,7509895
+Liver,70-74 years,Unknown/unstaged,3.862,0.227,3.430,4.333,290,7509895
+Intrahepatic Bile Duct,50-54 years,Localized,0.152,0.028,0.102,0.219,29,19057826
+Intrahepatic Bile Duct,50-54 years,Regional,0.205,0.033,0.146,0.280,39,19057826
+Intrahepatic Bile Duct,50-54 years,Distant,0.247,0.036,0.181,0.328,47,19057826
+Intrahepatic Bile Duct,50-54 years,Unknown/unstaged,0.052,0.017,0.025,0.096,10,19057826
+Intrahepatic Bile Duct,60-64 years,Localized,0.347,0.054,0.249,0.471,41,11814014
+Intrahepatic Bile Duct,60-64 years,Regional,0.533,0.067,0.410,0.682,63,11814014
+Intrahepatic Bile Duct,60-64 years,Distant,0.533,0.067,0.410,0.682,63,11814014
+Intrahepatic Bile Duct,60-64 years,Unknown/unstaged,0.212,0.042,0.137,0.312,25,11814014
+Intrahepatic Bile Duct,70-74 years,Localized,0.866,0.107,0.668,1.103,65,7509895
+Intrahepatic Bile Duct,70-74 years,Regional,0.959,0.113,0.750,1.207,72,7509895
+Intrahepatic Bile Duct,70-74 years,Distant,1.025,0.117,0.809,1.281,77,7509895
+Intrahepatic Bile Duct,70-74 years,Unknown/unstaged,0.639,0.092,0.471,0.847,48,7509895
+Gallbladder,50-54 years,Blank(s),0.761,0.063,0.642,0.895,145,19057826
+Gallbladder,60-64 years,Blank(s),2.218,0.137,1.957,2.503,262,11814014
+Gallbladder,70-74 years,Blank(s),5.673,0.275,5.147,6.238,426,7509895
+Other Biliary,50-54 years,Blank(s),1.328,0.083,1.169,1.502,253,19057826
+Other Biliary,60-64 years,Blank(s),3.894,0.182,3.546,4.266,460,11814014
+Other Biliary,70-74 years,Blank(s),8.522,0.337,7.875,9.209,640,7509895
+Pancreas,50-54 years,Localized,0.677,0.060,0.565,0.804,129,19057826
+Pancreas,50-54 years,Regional,3.285,0.131,3.032,3.552,626,19057826
+Pancreas,50-54 years,Distant,6.286,0.182,5.935,6.652,1198,19057826
+Pancreas,50-54 years,Unknown/unstaged,0.614,0.057,0.508,0.736,117,19057826
+Pancreas,60-64 years,Localized,1.947,0.128,1.703,2.215,230,11814014
+Pancreas,60-64 years,Regional,9.209,0.279,8.670,9.773,1088,11814014
+Pancreas,60-64 years,Distant,16.870,0.378,16.137,17.627,1993,11814014
+Pancreas,60-64 years,Unknown/unstaged,1.913,0.127,1.672,2.179,226,11814014
+Pancreas,70-74 years,Localized,4.487,0.244,4.021,4.993,337,7509895
+Pancreas,70-74 years,Regional,18.096,0.491,17.147,19.084,1359,7509895
+Pancreas,70-74 years,Distant,32.957,0.662,31.671,34.281,2475,7509895
+Pancreas,70-74 years,Unknown/unstaged,4.927,0.256,4.438,5.455,370,7509895
+Retroperitoneum,50-54 years,Blank(s),0.477,0.050,0.384,0.586,91,19057826
+Retroperitoneum,60-64 years,Blank(s),1.033,0.093,0.858,1.233,122,11814014
+Retroperitoneum,70-74 years,Blank(s),1.425,0.138,1.168,1.722,107,7509895
+"Peritoneum, Omentum and Mesentery",50-54 years,Blank(s),0.630,0.057,0.522,0.753,120,19057826
+"Peritoneum, Omentum and Mesentery",60-64 years,Blank(s),2.091,0.133,1.838,2.368,247,11814014
+"Peritoneum, Omentum and Mesentery",70-74 years,Blank(s),3.941,0.229,3.505,4.417,296,7509895
+Other Digestive Organs,50-54 years,Blank(s),0.598,0.056,0.493,0.719,114,19057826
+Other Digestive Organs,60-64 years,Blank(s),1.219,0.102,1.028,1.435,144,11814014
+Other Digestive Organs,70-74 years,Blank(s),2.463,0.181,2.121,2.845,185,7509895
+Respiratory System,50-54 years,Localized,9.697,0.226,9.260,10.149,1848,19057826
+Respiratory System,50-54 years,Regional,13.328,0.264,12.815,13.856,2540,19057826
+Respiratory System,50-54 years,Distant,31.683,0.408,30.888,32.492,6038,19057826
+Respiratory System,50-54 years,Unknown/unstaged,1.758,0.096,1.575,1.956,335,19057826
+Respiratory System,50-54 years,Blank(s),1.076,0.075,0.933,1.233,205,19057826
+Respiratory System,60-64 years,Localized,36.144,0.553,35.067,37.244,4270,11814014
+Respiratory System,60-64 years,Regional,43.618,0.608,42.435,44.825,5153,11814014
+Respiratory System,60-64 years,Distant,97.477,0.908,95.705,99.274,11516,11814014
+Respiratory System,60-64 years,Unknown/unstaged,6.797,0.240,6.335,7.284,803,11814014
+Respiratory System,60-64 years,Blank(s),1.989,0.130,1.743,2.260,235,11814014
+Respiratory System,70-74 years,Localized,81.985,1.045,79.950,84.059,6157,7509895
+Respiratory System,70-74 years,Regional,89.975,1.095,87.842,92.146,6757,7509895
+Respiratory System,70-74 years,Distant,192.652,1.602,189.526,195.818,14468,7509895
+Respiratory System,70-74 years,Unknown/unstaged,21.478,0.535,20.443,22.553,1613,7509895
+Respiratory System,70-74 years,Blank(s),2.890,0.196,2.518,3.301,217,7509895
+"Nose, Nasal Cavity and Middle Ear",50-54 years,Blank(s),0.871,0.068,0.744,1.014,166,19057826
+"Nose, Nasal Cavity and Middle Ear",60-64 years,Blank(s),1.617,0.117,1.396,1.863,191,11814014
+"Nose, Nasal Cavity and Middle Ear",70-74 years,Blank(s),2.423,0.180,2.084,2.802,182,7509895
+Larynx,50-54 years,Localized,2.849,0.122,2.615,3.099,543,19057826
+Larynx,50-54 years,Regional,1.354,0.084,1.194,1.529,258,19057826
+Larynx,50-54 years,Distant,1.055,0.074,0.914,1.211,201,19057826
+Larynx,50-54 years,Unknown/unstaged,0.168,0.030,0.115,0.237,32,19057826
+Larynx,60-64 years,Localized,6.822,0.240,6.359,7.310,806,11814014
+Larynx,60-64 years,Regional,2.912,0.157,2.612,3.236,344,11814014
+Larynx,60-64 years,Distant,2.116,0.134,1.862,2.395,250,11814014
+Larynx,60-64 years,Unknown/unstaged,0.330,0.053,0.235,0.451,39,11814014
+Larynx,70-74 years,Localized,11.864,0.397,11.098,12.670,891,7509895
+Larynx,70-74 years,Regional,2.836,0.194,2.468,3.244,213,7509895
+Larynx,70-74 years,Distant,2.450,0.181,2.109,2.831,184,7509895
+Larynx,70-74 years,Unknown/unstaged,0.466,0.079,0.325,0.648,35,7509895
+Lung and Bronchus,50-54 years,Localized,6.848,0.190,6.481,7.229,1305,19057826
+Lung and Bronchus,50-54 years,Regional,11.974,0.251,11.488,12.476,2282,19057826
+Lung and Bronchus,50-54 years,Distant,30.628,0.401,29.847,31.424,5837,19057826
+Lung and Bronchus,50-54 years,Unknown/unstaged,1.590,0.091,1.416,1.779,303,19057826
+Lung and Bronchus,60-64 years,Localized,29.321,0.498,28.353,30.314,3464,11814014
+Lung and Bronchus,60-64 years,Regional,40.706,0.587,39.563,41.873,4809,11814014
+Lung and Bronchus,60-64 years,Distant,95.361,0.898,93.608,97.139,11266,11814014
+Lung and Bronchus,60-64 years,Unknown/unstaged,6.467,0.234,6.016,6.942,764,11814014
+Lung and Bronchus,70-74 years,Localized,70.121,0.966,68.240,72.041,5266,7509895
+Lung and Bronchus,70-74 years,Regional,87.138,1.077,85.040,89.276,6544,7509895
+Lung and Bronchus,70-74 years,Distant,190.202,1.591,187.096,193.348,14284,7509895
+Lung and Bronchus,70-74 years,Unknown/unstaged,21.012,0.529,19.988,22.075,1578,7509895
+Pleura,50-54 years,Blank(s),0.016,0.009,0.003,0.046,3,19057826
+Pleura,60-64 years,Blank(s),0.119,0.032,0.065,0.199,14,11814014
+Pleura,70-74 years,Blank(s),0.120,0.040,0.055,0.227,9,7509895
+"Trachea, Mediastinum and Other Respiratory Organs",50-54 years,Blank(s),0.189,0.031,0.132,0.262,36,19057826
+"Trachea, Mediastinum and Other Respiratory Organs",60-64 years,Blank(s),0.254,0.046,0.171,0.363,30,11814014
+"Trachea, Mediastinum and Other Respiratory Organs",70-74 years,Blank(s),0.346,0.068,0.226,0.507,26,7509895
+Bones and Joints,50-54 years,Blank(s),0.871,0.068,0.744,1.014,166,19057826
+Bones and Joints,60-64 years,Blank(s),1.270,0.104,1.075,1.490,150,11814014
+Bones and Joints,70-74 years,Blank(s),1.598,0.146,1.325,1.911,120,7509895
+Soft Tissue including Heart,50-54 years,Localized,2.235,0.108,2.028,2.458,426,19057826
+Soft Tissue including Heart,50-54 years,Regional,0.834,0.066,0.710,0.975,159,19057826
+Soft Tissue including Heart,50-54 years,Distant,0.483,0.050,0.389,0.592,92,19057826
+Soft Tissue including Heart,50-54 years,Unknown/unstaged,0.184,0.031,0.128,0.255,35,19057826
+Soft Tissue including Heart,60-64 years,Localized,3.208,0.165,2.893,3.548,379,11814014
+Soft Tissue including Heart,60-64 years,Regional,1.422,0.110,1.215,1.654,168,11814014
+Soft Tissue including Heart,60-64 years,Distant,0.990,0.092,0.819,1.187,117,11814014
+Soft Tissue including Heart,60-64 years,Unknown/unstaged,0.406,0.059,0.300,0.539,48,11814014
+Soft Tissue including Heart,70-74 years,Localized,4.887,0.255,4.400,5.413,367,7509895
+Soft Tissue including Heart,70-74 years,Regional,2.370,0.178,2.035,2.745,178,7509895
+Soft Tissue including Heart,70-74 years,Distant,1.265,0.130,1.023,1.546,95,7509895
+Soft Tissue including Heart,70-74 years,Unknown/unstaged,0.546,0.085,0.392,0.741,41,7509895
+Skin excluding Basal and Squamous,50-54 years,Localized,26.992,0.376,26.259,27.739,5144,19057826
+Skin excluding Basal and Squamous,50-54 years,Regional,2.246,0.109,2.038,2.469,428,19057826
+Skin excluding Basal and Squamous,50-54 years,Distant,0.808,0.065,0.685,0.946,154,19057826
+Skin excluding Basal and Squamous,50-54 years,Unknown/unstaged,0.740,0.062,0.623,0.873,141,19057826
+Skin excluding Basal and Squamous,50-54 years,Blank(s),1.726,0.095,1.545,1.923,329,19057826
+Skin excluding Basal and Squamous,60-64 years,Localized,42.492,0.600,41.325,43.684,5020,11814014
+Skin excluding Basal and Squamous,60-64 years,Regional,3.792,0.179,3.449,4.160,448,11814014
+Skin excluding Basal and Squamous,60-64 years,Distant,1.651,0.118,1.427,1.899,195,11814014
+Skin excluding Basal and Squamous,60-64 years,Unknown/unstaged,1.278,0.104,1.082,1.499,151,11814014
+Skin excluding Basal and Squamous,60-64 years,Blank(s),2.980,0.159,2.676,3.308,352,11814014
+Skin excluding Basal and Squamous,70-74 years,Localized,58.163,0.880,56.451,59.914,4368,7509895
+Skin excluding Basal and Squamous,70-74 years,Regional,5.739,0.276,5.210,6.307,431,7509895
+Skin excluding Basal and Squamous,70-74 years,Distant,2.597,0.186,2.245,2.988,195,7509895
+Skin excluding Basal and Squamous,70-74 years,Unknown/unstaged,2.144,0.169,1.825,2.502,161,7509895
+Skin excluding Basal and Squamous,70-74 years,Blank(s),7.430,0.315,6.826,8.073,558,7509895
+Melanoma of the Skin,50-54 years,Localized,26.992,0.376,26.259,27.739,5144,19057826
+Melanoma of the Skin,50-54 years,Regional,2.246,0.109,2.038,2.469,428,19057826
+Melanoma of the Skin,50-54 years,Distant,0.808,0.065,0.685,0.946,154,19057826
+Melanoma of the Skin,50-54 years,Unknown/unstaged,0.740,0.062,0.623,0.873,141,19057826
+Melanoma of the Skin,60-64 years,Localized,42.492,0.600,41.325,43.684,5020,11814014
+Melanoma of the Skin,60-64 years,Regional,3.792,0.179,3.449,4.160,448,11814014
+Melanoma of the Skin,60-64 years,Distant,1.651,0.118,1.427,1.899,195,11814014
+Melanoma of the Skin,60-64 years,Unknown/unstaged,1.278,0.104,1.082,1.499,151,11814014
+Melanoma of the Skin,70-74 years,Localized,58.163,0.880,56.451,59.914,4368,7509895
+Melanoma of the Skin,70-74 years,Regional,5.739,0.276,5.210,6.307,431,7509895
+Melanoma of the Skin,70-74 years,Distant,2.597,0.186,2.245,2.988,195,7509895
+Melanoma of the Skin,70-74 years,Unknown/unstaged,2.144,0.169,1.825,2.502,161,7509895
+Other Non-Epithelial Skin,50-54 years,Blank(s),1.726,0.095,1.545,1.923,329,19057826
+Other Non-Epithelial Skin,60-64 years,Blank(s),2.980,0.159,2.676,3.308,352,11814014
+Other Non-Epithelial Skin,70-74 years,Blank(s),7.430,0.315,6.826,8.073,558,7509895
+Breast,50-54 years,Localized,73.807,0.622,72.592,75.037,14066,19057826
+Breast,50-54 years,Regional,41.720,0.468,40.808,42.648,7951,19057826
+Breast,50-54 years,Distant,5.609,0.172,5.278,5.956,1069,19057826
+Breast,50-54 years,Unknown/unstaged,1.411,0.086,1.248,1.591,269,19057826
+Breast,60-64 years,Localized,125.647,1.031,123.634,127.685,14844,11814014
+Breast,60-64 years,Regional,56.281,0.690,54.936,57.650,6649,11814014
+Breast,60-64 years,Distant,9.633,0.286,9.081,10.209,1138,11814014
+Breast,60-64 years,Unknown/unstaged,2.429,0.143,2.156,2.727,287,11814014
+Breast,70-74 years,Localized,168.178,1.496,165.258,171.137,12630,7509895
+Breast,70-74 years,Regional,60.254,0.896,58.511,62.036,4525,7509895
+Breast,70-74 years,Distant,12.144,0.402,11.369,12.958,912,7509895
+Breast,70-74 years,Unknown/unstaged,3.995,0.231,3.555,4.473,300,7509895
+Female Genital System,50-54 years,Localized,23.581,0.352,22.896,24.281,4494,19057826
+Female Genital System,50-54 years,Regional,9.880,0.228,9.439,10.337,1883,19057826
+Female Genital System,50-54 years,Distant,8.527,0.212,8.117,8.952,1625,19057826
+Female Genital System,50-54 years,Unknown/unstaged,1.007,0.073,0.870,1.160,192,19057826
+Female Genital System,50-54 years,Blank(s),1.175,0.079,1.026,1.340,224,19057826
+Female Genital System,60-64 years,Localized,39.826,0.581,38.696,40.980,4705,11814014
+Female Genital System,60-64 years,Regional,16.108,0.369,15.392,16.848,1903,11814014
+Female Genital System,60-64 years,Distant,17.598,0.386,16.849,18.371,2079,11814014
+Female Genital System,60-64 years,Unknown/unstaged,2.387,0.142,2.117,2.682,282,11814014
+Female Genital System,60-64 years,Blank(s),2.201,0.136,1.941,2.485,260,11814014
+Female Genital System,70-74 years,Localized,40.533,0.735,39.106,41.999,3044,7509895
+Female Genital System,70-74 years,Regional,18.882,0.501,17.912,19.891,1418,7509895
+Female Genital System,70-74 years,Distant,25.659,0.585,24.526,26.831,1927,7509895
+Female Genital System,70-74 years,Unknown/unstaged,3.848,0.226,3.417,4.318,289,7509895
+Female Genital System,70-74 years,Blank(s),2.983,0.199,2.605,3.400,224,7509895
+Cervix Uteri,50-54 years,Localized,2.293,0.110,2.083,2.518,437,19057826
+Cervix Uteri,50-54 years,Regional,2.414,0.113,2.198,2.645,460,19057826
+Cervix Uteri,50-54 years,Distant,0.782,0.064,0.661,0.918,149,19057826
+Cervix Uteri,50-54 years,Unknown/unstaged,0.157,0.029,0.106,0.225,30,19057826
+Cervix Uteri,60-64 years,Localized,2.074,0.132,1.822,2.350,245,11814014
+Cervix Uteri,60-64 years,Regional,2.582,0.148,2.300,2.888,305,11814014
+Cervix Uteri,60-64 years,Distant,1.100,0.097,0.919,1.307,130,11814014
+Cervix Uteri,60-64 years,Unknown/unstaged,0.330,0.053,0.235,0.451,39,11814014
+Cervix Uteri,70-74 years,Localized,1.984,0.163,1.678,2.329,149,7509895
+Cervix Uteri,70-74 years,Regional,2.903,0.197,2.530,3.315,218,7509895
+Cervix Uteri,70-74 years,Distant,1.065,0.119,0.845,1.326,80,7509895
+Cervix Uteri,70-74 years,Unknown/unstaged,0.439,0.076,0.302,0.617,33,7509895
+"Corpus and Uterus, NOS",50-54 years,Localized,18.019,0.307,17.421,18.632,3434,19057826
+"Corpus and Uterus, NOS",50-54 years,Regional,4.297,0.150,4.008,4.602,819,19057826
+"Corpus and Uterus, NOS",50-54 years,Distant,1.532,0.090,1.361,1.718,292,19057826
+"Corpus and Uterus, NOS",50-54 years,Unknown/unstaged,0.462,0.049,0.370,0.569,88,19057826
+"Corpus and Uterus, NOS",60-64 years,Localized,33.824,0.535,32.784,34.890,3996,11814014
+"Corpus and Uterus, NOS",60-64 years,Regional,9.616,0.285,9.065,10.192,1136,11814014
+"Corpus and Uterus, NOS",60-64 years,Distant,3.276,0.167,2.957,3.619,387,11814014
+"Corpus and Uterus, NOS",60-64 years,Unknown/unstaged,1.109,0.097,0.927,1.316,131,11814014
+"Corpus and Uterus, NOS",70-74 years,Localized,33.223,0.665,31.932,34.553,2495,7509895
+"Corpus and Uterus, NOS",70-74 years,Regional,11.092,0.384,10.351,11.872,833,7509895
+"Corpus and Uterus, NOS",70-74 years,Distant,4.993,0.258,4.501,5.525,375,7509895
+"Corpus and Uterus, NOS",70-74 years,Unknown/unstaged,1.585,0.145,1.313,1.896,119,7509895
+Corpus Uteri,50-54 years,Localized,17.961,0.307,17.364,18.573,3423,19057826
+Corpus Uteri,50-54 years,Regional,4.224,0.149,3.937,4.526,805,19057826
+Corpus Uteri,50-54 years,Distant,1.338,0.084,1.179,1.513,255,19057826
+Corpus Uteri,50-54 years,Unknown/unstaged,0.399,0.046,0.314,0.499,76,19057826
+Corpus Uteri,60-64 years,Localized,33.680,0.534,32.642,34.743,3979,11814014
+Corpus Uteri,60-64 years,Regional,9.446,0.283,8.900,10.017,1116,11814014
+Corpus Uteri,60-64 years,Distant,2.946,0.158,2.644,3.272,348,11814014
+Corpus Uteri,60-64 years,Unknown/unstaged,0.897,0.087,0.735,1.085,106,11814014
+Corpus Uteri,70-74 years,Localized,33.076,0.664,31.788,34.403,2484,7509895
+Corpus Uteri,70-74 years,Regional,10.866,0.380,10.133,11.637,816,7509895
+Corpus Uteri,70-74 years,Distant,4.634,0.248,4.160,5.147,348,7509895
+Corpus Uteri,70-74 years,Unknown/unstaged,1.358,0.134,1.107,1.649,102,7509895
+"Uterus, NOS",50-54 years,Localized,0.058,0.017,0.029,0.103,11,19057826
+"Uterus, NOS",50-54 years,Regional,0.073,0.020,0.040,0.123,14,19057826
+"Uterus, NOS",50-54 years,Distant,0.194,0.032,0.137,0.268,37,19057826
+"Uterus, NOS",50-54 years,Unknown/unstaged,0.063,0.018,0.033,0.110,12,19057826
+"Uterus, NOS",60-64 years,Localized,0.144,0.035,0.084,0.230,17,11814014
+"Uterus, NOS",60-64 years,Regional,0.169,0.038,0.103,0.261,20,11814014
+"Uterus, NOS",60-64 years,Distant,0.330,0.053,0.235,0.451,39,11814014
+"Uterus, NOS",60-64 years,Unknown/unstaged,0.212,0.042,0.137,0.312,25,11814014
+"Uterus, NOS",70-74 years,Localized,0.146,0.044,0.073,0.262,11,7509895
+"Uterus, NOS",70-74 years,Regional,0.226,0.055,0.132,0.362,17,7509895
+"Uterus, NOS",70-74 years,Distant,0.360,0.069,0.237,0.523,27,7509895
+"Uterus, NOS",70-74 years,Unknown/unstaged,0.226,0.055,0.132,0.362,17,7509895
+Ovary,50-54 years,Localized,2.193,0.107,1.988,2.414,418,19057826
+Ovary,50-54 years,Regional,2.718,0.119,2.489,2.963,518,19057826
+Ovary,50-54 years,Distant,6.160,0.180,5.813,6.523,1174,19057826
+Ovary,50-54 years,Unknown/unstaged,0.336,0.042,0.259,0.429,64,19057826
+Ovary,60-64 years,Localized,2.235,0.138,1.973,2.521,264,11814014
+Ovary,60-64 years,Regional,3.217,0.165,2.901,3.557,380,11814014
+Ovary,60-64 years,Distant,13.069,0.333,12.425,13.738,1544,11814014
+Ovary,60-64 years,Unknown/unstaged,0.838,0.084,0.681,1.020,99,11814014
+Ovary,70-74 years,Localized,2.344,0.177,2.010,2.717,176,7509895
+Ovary,70-74 years,Regional,3.675,0.221,3.254,4.135,276,7509895
+Ovary,70-74 years,Distant,19.441,0.509,18.456,20.464,1460,7509895
+Ovary,70-74 years,Unknown/unstaged,1.625,0.147,1.349,1.940,122,7509895
+Vagina,50-54 years,Blank(s),0.504,0.051,0.408,0.615,96,19057826
+Vagina,60-64 years,Blank(s),0.863,0.085,0.704,1.048,102,11814014
+Vagina,70-74 years,Blank(s),1.425,0.138,1.168,1.722,107,7509895
+Vulva,50-54 years,Localized,1.076,0.075,0.933,1.233,205,19057826
+Vulva,50-54 years,Regional,0.451,0.049,0.361,0.557,86,19057826
+Vulva,50-54 years,Distant,0.052,0.017,0.025,0.096,10,19057826
+Vulva,50-54 years,Unknown/unstaged,0.052,0.017,0.025,0.096,10,19057826
+Vulva,60-64 years,Localized,1.693,0.120,1.466,1.944,200,11814014
+Vulva,60-64 years,Regional,0.694,0.077,0.552,0.862,82,11814014
+Vulva,60-64 years,Distant,0.152,0.036,0.090,0.241,18,11814014
+Vulva,60-64 years,Unknown/unstaged,0.110,0.031,0.059,0.188,13,11814014
+Vulva,70-74 years,Localized,2.983,0.199,2.605,3.400,224,7509895
+Vulva,70-74 years,Regional,1.212,0.127,0.976,1.488,91,7509895
+Vulva,70-74 years,Distant,0.160,0.046,0.083,0.279,12,7509895
+Vulva,70-74 years,Unknown/unstaged,0.200,0.052,0.112,0.329,15,7509895
+Other Female Genital Organs,50-54 years,Blank(s),0.672,0.059,0.560,0.799,128,19057826
+Other Female Genital Organs,60-64 years,Blank(s),1.337,0.106,1.137,1.563,158,11814014
+Other Female Genital Organs,70-74 years,Blank(s),1.558,0.144,1.288,1.867,117,7509895
+Male Genital System,50-54 years,Localized,60.526,0.564,59.427,61.641,11535,19057826
+Male Genital System,50-54 years,Regional,14.682,0.278,14.143,15.236,2798,19057826
+Male Genital System,50-54 years,Distant,2.067,0.104,1.868,2.282,394,19057826
+Male Genital System,50-54 years,Unknown/unstaged,0.619,0.057,0.513,0.741,118,19057826
+Male Genital System,50-54 years,Blank(s),0.462,0.049,0.370,0.569,88,19057826
+Male Genital System,60-64 years,Localized,237.862,1.419,235.089,240.659,28101,11814014
+Male Genital System,60-64 years,Regional,48.163,0.638,46.920,49.431,5690,11814014
+Male Genital System,60-64 years,Distant,7.982,0.260,7.481,8.508,943,11814014
+Male Genital System,60-64 years,Unknown/unstaged,3.318,0.168,2.998,3.663,392,11814014
+Male Genital System,60-64 years,Blank(s),1.134,0.098,0.950,1.343,134,11814014
+Male Genital System,70-74 years,Localized,395.651,2.295,391.165,400.176,29713,7509895
+Male Genital System,70-74 years,Regional,39.508,0.725,38.099,40.956,2967,7509895
+Male Genital System,70-74 years,Distant,16.778,0.473,15.864,17.730,1260,7509895
+Male Genital System,70-74 years,Unknown/unstaged,10.293,0.370,9.580,11.045,773,7509895
+Male Genital System,70-74 years,Blank(s),2.184,0.171,1.862,2.545,164,7509895
+Prostate,50-54 years,Localized,58.879,0.556,57.794,59.978,11221,19057826
+Prostate,50-54 years,Regional,14.346,0.274,13.813,14.894,2734,19057826
+Prostate,50-54 years,Distant,1.878,0.099,1.689,2.084,358,19057826
+Prostate,50-54 years,Unknown/unstaged,0.603,0.056,0.498,0.724,115,19057826
+Prostate,60-64 years,Localized,237.379,1.417,234.609,240.174,28044,11814014
+Prostate,60-64 years,Regional,48.070,0.638,46.828,49.337,5679,11814014
+Prostate,60-64 years,Distant,7.880,0.258,7.382,8.403,931,11814014
+Prostate,60-64 years,Unknown/unstaged,3.259,0.166,2.941,3.601,385,11814014
+Prostate,70-74 years,Localized,395.385,2.295,390.900,399.908,29693,7509895
+Prostate,70-74 years,Regional,39.468,0.725,38.060,40.915,2964,7509895
+Prostate,70-74 years,Distant,16.698,0.472,15.786,17.648,1254,7509895
+Prostate,70-74 years,Unknown/unstaged,10.280,0.370,9.567,11.031,772,7509895
+Testis,50-54 years,Localized,1.648,0.093,1.470,1.840,314,19057826
+Testis,50-54 years,Regional,0.336,0.042,0.259,0.429,64,19057826
+Testis,50-54 years,Distant,0.189,0.031,0.132,0.262,36,19057826
+Testis,50-54 years,Unknown/unstaged,0.016,0.009,0.003,0.046,3,19057826
+Testis,60-64 years,Localized,0.482,0.064,0.365,0.625,57,11814014
+Testis,60-64 years,Regional,0.093,0.028,0.046,0.167,11,11814014
+Testis,60-64 years,Distant,0.102,0.029,0.052,0.177,12,11814014
+Testis,60-64 years,Unknown/unstaged,0.059,0.022,0.024,0.122,7,11814014
+Testis,70-74 years,Localized,0.266,0.060,0.163,0.411,20,7509895
+Testis,70-74 years,Regional,0.040,0.023,0.008,0.117,3,7509895
+Testis,70-74 years,Distant,0.080,0.033,0.029,0.174,6,7509895
+Testis,70-74 years,Unknown/unstaged,0.013,0.013,0.000,0.074,1,7509895
+Penis,50-54 years,Blank(s),0.341,0.042,0.263,0.435,65,19057826
+Penis,60-64 years,Blank(s),0.779,0.081,0.628,0.955,92,11814014
+Penis,70-74 years,Blank(s),1.505,0.142,1.240,1.809,113,7509895
+Other Male Genital Organs,50-54 years,Blank(s),0.121,0.025,0.077,0.181,23,19057826
+Other Male Genital Organs,60-64 years,Blank(s),0.356,0.055,0.256,0.481,42,11814014
+Other Male Genital Organs,70-74 years,Blank(s),0.679,0.095,0.506,0.893,51,7509895
+Urinary System,50-54 years,In situ,8.674,0.213,8.260,9.102,1653,19057826
+Urinary System,50-54 years,Localized,17.735,0.305,17.143,18.344,3380,19057826
+Urinary System,50-54 years,Regional,4.103,0.147,3.821,4.401,782,19057826
+Urinary System,50-54 years,Distant,3.547,0.136,3.285,3.825,676,19057826
+Urinary System,50-54 years,Unknown/unstaged,0.771,0.064,0.652,0.907,147,19057826
+Urinary System,50-54 years,Blank(s),0.593,0.056,0.489,0.713,113,19057826
+Urinary System,60-64 years,In situ,26.875,0.477,25.948,27.826,3175,11814014
+Urinary System,60-64 years,Localized,43.448,0.606,42.268,44.654,5133,11814014
+Urinary System,60-64 years,Regional,11.038,0.306,10.447,11.653,1304,11814014
+Urinary System,60-64 years,Distant,8.888,0.274,8.358,9.442,1050,11814014
+Urinary System,60-64 years,Unknown/unstaged,2.268,0.139,2.005,2.557,268,11814014
+Urinary System,60-64 years,Blank(s),1.989,0.130,1.743,2.260,235,11814014
+Urinary System,70-74 years,In situ,59.282,0.888,57.553,61.049,4452,7509895
+Urinary System,70-74 years,Localized,76.765,1.011,74.796,78.773,5765,7509895
+Urinary System,70-74 years,Regional,20.067,0.517,19.066,21.106,1507,7509895
+Urinary System,70-74 years,Distant,13.955,0.431,13.123,14.826,1048,7509895
+Urinary System,70-74 years,Unknown/unstaged,5.167,0.262,4.665,5.707,388,7509895
+Urinary System,70-74 years,Blank(s),4.581,0.247,4.109,5.091,344,7509895
+Urinary Bladder,50-54 years,In situ,8.674,0.213,8.260,9.102,1653,19057826
+Urinary Bladder,50-54 years,Localized,4.245,0.149,3.957,4.548,809,19057826
+Urinary Bladder,50-54 years,Regional,1.212,0.080,1.061,1.379,231,19057826
+Urinary Bladder,50-54 years,Distant,0.567,0.055,0.465,0.684,108,19057826
+Urinary Bladder,50-54 years,Unknown/unstaged,0.394,0.045,0.310,0.493,75,19057826
+Urinary Bladder,60-64 years,In situ,26.875,0.477,25.948,27.826,3175,11814014
+Urinary Bladder,60-64 years,Localized,16.083,0.369,15.367,16.822,1900,11814014
+Urinary Bladder,60-64 years,Regional,3.894,0.182,3.546,4.266,460,11814014
+Urinary Bladder,60-64 years,Distant,1.921,0.128,1.680,2.188,227,11814014
+Urinary Bladder,60-64 years,Unknown/unstaged,1.193,0.101,1.005,1.408,141,11814014
+Urinary Bladder,70-74 years,In situ,59.282,0.888,57.553,61.049,4452,7509895
+Urinary Bladder,70-74 years,Localized,39.521,0.725,38.112,40.969,2968,7509895
+Urinary Bladder,70-74 years,Regional,8.868,0.344,8.207,9.568,666,7509895
+Urinary Bladder,70-74 years,Distant,4.301,0.239,3.845,4.797,323,7509895
+Urinary Bladder,70-74 years,Unknown/unstaged,2.597,0.186,2.245,2.988,195,7509895
+Kidney and Renal Pelvis,50-54 years,Localized,13.491,0.266,12.974,14.022,2571,19057826
+Kidney and Renal Pelvis,50-54 years,Regional,2.891,0.123,2.655,3.143,551,19057826
+Kidney and Renal Pelvis,50-54 years,Distant,2.980,0.125,2.740,3.236,568,19057826
+Kidney and Renal Pelvis,50-54 years,Unknown/unstaged,0.378,0.045,0.296,0.476,72,19057826
+Kidney and Renal Pelvis,60-64 years,Localized,27.366,0.481,26.431,28.326,3233,11814014
+Kidney and Renal Pelvis,60-64 years,Regional,7.144,0.246,6.670,7.643,844,11814014
+Kidney and Renal Pelvis,60-64 years,Distant,6.966,0.243,6.498,7.459,823,11814014
+Kidney and Renal Pelvis,60-64 years,Unknown/unstaged,1.075,0.095,0.896,1.279,127,11814014
+Kidney and Renal Pelvis,70-74 years,Localized,37.244,0.704,35.877,38.651,2797,7509895
+Kidney and Renal Pelvis,70-74 years,Regional,11.199,0.386,10.454,11.982,841,7509895
+Kidney and Renal Pelvis,70-74 years,Distant,9.654,0.359,8.964,10.383,725,7509895
+Kidney and Renal Pelvis,70-74 years,Unknown/unstaged,2.570,0.185,2.220,2.959,193,7509895
+Ureter,50-54 years,Blank(s),0.320,0.041,0.245,0.411,61,19057826
+Ureter,60-64 years,Blank(s),1.320,0.106,1.121,1.545,156,11814014
+Ureter,70-74 years,Blank(s),3.143,0.205,2.754,3.570,236,7509895
+Other Urinary Organs,50-54 years,Blank(s),0.273,0.038,0.204,0.358,52,19057826
+Other Urinary Organs,60-64 years,Blank(s),0.669,0.075,0.529,0.833,79,11814014
+Other Urinary Organs,70-74 years,Blank(s),1.438,0.138,1.180,1.736,108,7509895
+Eye and Orbit,50-54 years,Blank(s),1.055,0.074,0.914,1.211,201,19057826
+Eye and Orbit,60-64 years,Blank(s),1.989,0.130,1.743,2.260,235,11814014
+Eye and Orbit,70-74 years,Blank(s),2.783,0.193,2.418,3.187,209,7509895
+Brain and Other Nervous System,50-54 years,Localized,5.698,0.173,5.365,6.048,1086,19057826
+Brain and Other Nervous System,50-54 years,Regional,1.553,0.090,1.381,1.741,296,19057826
+Brain and Other Nervous System,50-54 years,Distant,0.058,0.017,0.029,0.103,11,19057826
+Brain and Other Nervous System,50-54 years,Unknown/unstaged,0.362,0.044,0.282,0.458,69,19057826
+Brain and Other Nervous System,60-64 years,Localized,10.327,0.296,9.755,10.923,1220,11814014
+Brain and Other Nervous System,60-64 years,Regional,2.480,0.145,2.204,2.781,293,11814014
+Brain and Other Nervous System,60-64 years,Distant,0.195,0.041,0.123,0.292,23,11814014
+Brain and Other Nervous System,60-64 years,Unknown/unstaged,0.635,0.073,0.499,0.796,75,11814014
+Brain and Other Nervous System,70-74 years,Localized,15.167,0.449,14.299,16.074,1139,7509895
+Brain and Other Nervous System,70-74 years,Regional,3.515,0.216,3.104,3.966,264,7509895
+Brain and Other Nervous System,70-74 years,Distant,0.280,0.061,0.173,0.427,21,7509895
+Brain and Other Nervous System,70-74 years,Unknown/unstaged,1.478,0.140,1.216,1.780,111,7509895
+Brain,50-54 years,Localized,5.389,0.168,5.064,5.729,1027,19057826
+Brain,50-54 years,Regional,1.485,0.088,1.317,1.668,283,19057826
+Brain,50-54 years,Distant,0.031,0.013,0.012,0.069,6,19057826
+Brain,50-54 years,Unknown/unstaged,0.304,0.040,0.231,0.393,58,19057826
+Brain,60-64 years,Localized,9.861,0.289,9.303,10.444,1165,11814014
+Brain,60-64 years,Regional,2.328,0.140,2.061,2.620,275,11814014
+Brain,60-64 years,Distant,0.144,0.035,0.084,0.230,17,11814014
+Brain,60-64 years,Unknown/unstaged,0.567,0.069,0.440,0.720,67,11814014
+Brain,70-74 years,Localized,14.554,0.440,13.704,15.443,1093,7509895
+Brain,70-74 years,Regional,3.396,0.213,2.992,3.839,255,7509895
+Brain,70-74 years,Distant,0.186,0.050,0.102,0.313,14,7509895
+Brain,70-74 years,Unknown/unstaged,1.332,0.133,1.083,1.620,100,7509895
+Cranial Nerves Other Nervous System,50-54 years,Localized,0.310,0.040,0.236,0.399,59,19057826
+Cranial Nerves Other Nervous System,50-54 years,Regional,0.068,0.019,0.036,0.117,13,19057826
+Cranial Nerves Other Nervous System,50-54 years,Distant,0.026,0.012,0.009,0.061,5,19057826
+Cranial Nerves Other Nervous System,50-54 years,Unknown/unstaged,0.058,0.017,0.029,0.103,11,19057826
+Cranial Nerves Other Nervous System,60-64 years,Localized,0.466,0.063,0.351,0.606,55,11814014
+Cranial Nerves Other Nervous System,60-64 years,Regional,0.152,0.036,0.090,0.241,18,11814014
+Cranial Nerves Other Nervous System,60-64 years,Distant,0.051,0.021,0.019,0.111,6,11814014
+Cranial Nerves Other Nervous System,60-64 years,Unknown/unstaged,0.068,0.024,0.029,0.133,8,11814014
+Cranial Nerves Other Nervous System,70-74 years,Localized,0.613,0.090,0.448,0.817,46,7509895
+Cranial Nerves Other Nervous System,70-74 years,Regional,0.120,0.040,0.055,0.227,9,7509895
+Cranial Nerves Other Nervous System,70-74 years,Distant,0.093,0.035,0.037,0.192,7,7509895
+Cranial Nerves Other Nervous System,70-74 years,Unknown/unstaged,0.146,0.044,0.073,0.262,11,7509895
+Endocrine System,50-54 years,Localized,13.527,0.266,13.010,14.060,2578,19057826
+Endocrine System,50-54 years,Regional,4.172,0.148,3.887,4.472,795,19057826
+Endocrine System,50-54 years,Distant,0.567,0.055,0.465,0.684,108,19057826
+Endocrine System,50-54 years,Unknown/unstaged,0.231,0.035,0.168,0.310,44,19057826
+Endocrine System,50-54 years,Blank(s),0.992,0.072,0.855,1.144,189,19057826
+Endocrine System,60-64 years,Localized,13.958,0.344,13.292,14.648,1649,11814014
+Endocrine System,60-64 years,Regional,4.156,0.188,3.797,4.540,491,11814014
+Endocrine System,60-64 years,Distant,0.956,0.090,0.788,1.150,113,11814014
+Endocrine System,60-64 years,Unknown/unstaged,0.356,0.055,0.256,0.481,42,11814014
+Endocrine System,60-64 years,Blank(s),1.600,0.116,1.380,1.845,189,11814014
+Endocrine System,70-74 years,Localized,12.171,0.403,11.394,12.986,914,7509895
+Endocrine System,70-74 years,Regional,3.928,0.229,3.493,4.403,295,7509895
+Endocrine System,70-74 years,Distant,2.277,0.174,1.948,2.645,171,7509895
+Endocrine System,70-74 years,Unknown/unstaged,0.559,0.086,0.403,0.756,42,7509895
+Endocrine System,70-74 years,Blank(s),1.838,0.156,1.544,2.171,138,7509895
+Thyroid,50-54 years,Localized,13.527,0.266,13.010,14.060,2578,19057826
+Thyroid,50-54 years,Regional,4.172,0.148,3.887,4.472,795,19057826
+Thyroid,50-54 years,Distant,0.567,0.055,0.465,0.684,108,19057826
+Thyroid,50-54 years,Unknown/unstaged,0.231,0.035,0.168,0.310,44,19057826
+Thyroid,60-64 years,Localized,13.958,0.344,13.292,14.648,1649,11814014
+Thyroid,60-64 years,Regional,4.156,0.188,3.797,4.540,491,11814014
+Thyroid,60-64 years,Distant,0.956,0.090,0.788,1.150,113,11814014
+Thyroid,60-64 years,Unknown/unstaged,0.356,0.055,0.256,0.481,42,11814014
+Thyroid,70-74 years,Localized,12.171,0.403,11.394,12.986,914,7509895
+Thyroid,70-74 years,Regional,3.928,0.229,3.493,4.403,295,7509895
+Thyroid,70-74 years,Distant,2.277,0.174,1.948,2.645,171,7509895
+Thyroid,70-74 years,Unknown/unstaged,0.559,0.086,0.403,0.756,42,7509895
+Other Endocrine including Thymus,50-54 years,Blank(s),0.992,0.072,0.855,1.144,189,19057826
+Other Endocrine including Thymus,60-64 years,Blank(s),1.600,0.116,1.380,1.845,189,11814014
+Other Endocrine including Thymus,70-74 years,Blank(s),1.838,0.156,1.544,2.171,138,7509895
+Lymphoma,50-54 years,Localized,8.044,0.205,7.646,8.457,1533,19057826
+Lymphoma,50-54 years,Regional,3.941,0.144,3.664,4.233,751,19057826
+Lymphoma,50-54 years,Distant,12.593,0.257,12.094,13.107,2400,19057826
+Lymphoma,50-54 years,Unknown/unstaged,1.307,0.083,1.149,1.479,249,19057826
+Lymphoma,60-64 years,Localized,14.669,0.352,13.986,15.376,1733,11814014
+Lymphoma,60-64 years,Regional,7.432,0.251,6.948,7.940,878,11814014
+Lymphoma,60-64 years,Distant,25.343,0.463,24.443,26.267,2994,11814014
+Lymphoma,60-64 years,Unknown/unstaged,2.285,0.139,2.021,2.575,270,11814014
+Lymphoma,70-74 years,Localized,27.457,0.605,26.285,28.668,2062,7509895
+Lymphoma,70-74 years,Regional,13.649,0.426,12.826,14.510,1025,7509895
+Lymphoma,70-74 years,Distant,45.820,0.781,44.301,47.377,3441,7509895
+Lymphoma,70-74 years,Unknown/unstaged,5.233,0.264,4.728,5.777,393,7509895
+Hodgkin Lymphoma,50-54 years,Localized,0.635,0.058,0.527,0.759,121,19057826
+Hodgkin Lymphoma,50-54 years,Regional,0.750,0.063,0.632,0.884,143,19057826
+Hodgkin Lymphoma,50-54 years,Distant,1.039,0.074,0.899,1.194,198,19057826
+Hodgkin Lymphoma,50-54 years,Unknown/unstaged,0.100,0.023,0.060,0.156,19,19057826
+Hodgkin Lymphoma,60-64 years,Localized,0.660,0.075,0.522,0.824,78,11814014
+Hodgkin Lymphoma,60-64 years,Regional,0.745,0.079,0.597,0.918,88,11814014
+Hodgkin Lymphoma,60-64 years,Distant,1.320,0.106,1.121,1.545,156,11814014
+Hodgkin Lymphoma,60-64 years,Unknown/unstaged,0.068,0.024,0.029,0.133,8,11814014
+Hodgkin Lymphoma,70-74 years,Localized,1.119,0.122,0.892,1.385,84,7509895
+Hodgkin Lymphoma,70-74 years,Regional,0.972,0.114,0.762,1.222,73,7509895
+Hodgkin Lymphoma,70-74 years,Distant,1.944,0.161,1.642,2.286,146,7509895
+Hodgkin Lymphoma,70-74 years,Unknown/unstaged,0.186,0.050,0.102,0.313,14,7509895
+Hodgkin - Nodal,50-54 years,Localized,0.609,0.057,0.503,0.730,116,19057826
+Hodgkin - Nodal,50-54 years,Regional,0.714,0.061,0.599,0.844,136,19057826
+Hodgkin - Nodal,50-54 years,Distant,1.007,0.073,0.870,1.160,192,19057826
+Hodgkin - Nodal,50-54 years,Unknown/unstaged,0.094,0.022,0.056,0.149,18,19057826
+Hodgkin - Nodal,60-64 years,Localized,0.643,0.074,0.507,0.805,76,11814014
+Hodgkin - Nodal,60-64 years,Regional,0.711,0.078,0.567,0.880,84,11814014
+Hodgkin - Nodal,60-64 years,Distant,1.295,0.105,1.098,1.517,153,11814014
+Hodgkin - Nodal,60-64 years,Unknown/unstaged,0.068,0.024,0.029,0.133,8,11814014
+Hodgkin - Nodal,70-74 years,Localized,1.065,0.119,0.845,1.326,80,7509895
+Hodgkin - Nodal,70-74 years,Regional,0.959,0.113,0.750,1.207,72,7509895
+Hodgkin - Nodal,70-74 years,Distant,1.878,0.158,1.580,2.214,141,7509895
+Hodgkin - Nodal,70-74 years,Unknown/unstaged,0.186,0.050,0.102,0.313,14,7509895
+Hodgkin - Extranodal,50-54 years,Localized,0.026,0.012,0.009,0.061,5,19057826
+Hodgkin - Extranodal,50-54 years,Regional,0.037,0.014,0.015,0.076,7,19057826
+Hodgkin - Extranodal,50-54 years,Distant,0.031,0.013,0.012,0.069,6,19057826
+Hodgkin - Extranodal,50-54 years,Unknown/unstaged,0.005,0.005,0.000,0.029,1,19057826
+Hodgkin - Extranodal,60-64 years,Localized,0.017,0.012,0.002,0.061,2,11814014
+Hodgkin - Extranodal,60-64 years,Regional,0.034,0.017,0.009,0.087,4,11814014
+Hodgkin - Extranodal,60-64 years,Distant,0.025,0.015,0.005,0.074,3,11814014
+Hodgkin - Extranodal,70-74 years,Localized,0.053,0.027,0.015,0.136,4,7509895
+Hodgkin - Extranodal,70-74 years,Regional,0.013,0.013,0.000,0.074,1,7509895
+Hodgkin - Extranodal,70-74 years,Distant,0.067,0.030,0.022,0.155,5,7509895
+Non-Hodgkin Lymphoma,50-54 years,Localized,7.409,0.197,7.028,7.806,1412,19057826
+Non-Hodgkin Lymphoma,50-54 years,Regional,3.190,0.129,2.942,3.454,608,19057826
+Non-Hodgkin Lymphoma,50-54 years,Distant,11.554,0.246,11.077,12.047,2202,19057826
+Non-Hodgkin Lymphoma,50-54 years,Unknown/unstaged,1.207,0.080,1.056,1.373,230,19057826
+Non-Hodgkin Lymphoma,60-64 years,Localized,14.009,0.344,13.342,14.700,1655,11814014
+Non-Hodgkin Lymphoma,60-64 years,Regional,6.687,0.238,6.229,7.170,790,11814014
+Non-Hodgkin Lymphoma,60-64 years,Distant,24.022,0.451,23.147,24.923,2838,11814014
+Non-Hodgkin Lymphoma,60-64 years,Unknown/unstaged,2.218,0.137,1.957,2.503,262,11814014
+Non-Hodgkin Lymphoma,70-74 years,Localized,26.339,0.592,25.191,27.525,1978,7509895
+Non-Hodgkin Lymphoma,70-74 years,Regional,12.677,0.411,11.884,13.508,952,7509895
+Non-Hodgkin Lymphoma,70-74 years,Distant,43.875,0.764,42.390,45.400,3295,7509895
+Non-Hodgkin Lymphoma,70-74 years,Unknown/unstaged,5.047,0.259,4.551,5.581,379,7509895
+NHL - Nodal,50-54 years,Localized,2.928,0.124,2.690,3.181,558,19057826
+NHL - Nodal,50-54 years,Regional,2.062,0.104,1.863,2.276,393,19057826
+NHL - Nodal,50-54 years,Distant,9.901,0.228,9.460,10.359,1887,19057826
+NHL - Nodal,50-54 years,Unknown/unstaged,0.792,0.064,0.671,0.929,151,19057826
+NHL - Nodal,60-64 years,Localized,5.866,0.223,5.437,6.319,693,11814014
+NHL - Nodal,60-64 years,Regional,4.300,0.191,3.934,4.691,508,11814014
+NHL - Nodal,60-64 years,Distant,20.400,0.416,19.593,21.231,2410,11814014
+NHL - Nodal,60-64 years,Unknown/unstaged,1.583,0.116,1.364,1.827,187,11814014
+NHL - Nodal,70-74 years,Localized,10.946,0.382,10.210,11.720,822,7509895
+NHL - Nodal,70-74 years,Regional,8.442,0.335,7.798,9.126,634,7509895
+NHL - Nodal,70-74 years,Distant,36.672,0.699,35.315,38.067,2754,7509895
+NHL - Nodal,70-74 years,Unknown/unstaged,3.622,0.220,3.204,4.079,272,7509895
+NHL - Extranodal,50-54 years,Localized,4.481,0.153,4.186,4.792,854,19057826
+NHL - Extranodal,50-54 years,Regional,1.128,0.077,0.982,1.289,215,19057826
+NHL - Extranodal,50-54 years,Distant,1.653,0.093,1.475,1.846,315,19057826
+NHL - Extranodal,50-54 years,Unknown/unstaged,0.415,0.047,0.328,0.517,79,19057826
+NHL - Extranodal,60-64 years,Localized,8.143,0.263,7.636,8.674,962,11814014
+NHL - Extranodal,60-64 years,Regional,2.387,0.142,2.117,2.682,282,11814014
+NHL - Extranodal,60-64 years,Distant,3.623,0.175,3.288,3.983,428,11814014
+NHL - Extranodal,60-64 years,Unknown/unstaged,0.635,0.073,0.499,0.796,75,11814014
+NHL - Extranodal,70-74 years,Localized,15.393,0.453,14.518,16.307,1156,7509895
+NHL - Extranodal,70-74 years,Regional,4.234,0.237,3.782,4.726,318,7509895
+NHL - Extranodal,70-74 years,Distant,7.204,0.310,6.610,7.837,541,7509895
+NHL - Extranodal,70-74 years,Unknown/unstaged,1.425,0.138,1.168,1.722,107,7509895
+Myeloma,50-54 years,Localized,0.477,0.050,0.384,0.586,91,19057826
+Myeloma,50-54 years,Distant,5.761,0.174,5.426,6.113,1098,19057826
+Myeloma,50-54 years,Unknown/unstaged,0.021,0.010,0.006,0.054,4,19057826
+Myeloma,60-64 years,Localized,0.880,0.086,0.719,1.067,104,11814014
+Myeloma,60-64 years,Distant,15.405,0.361,14.706,16.130,1820,11814014
+Myeloma,60-64 years,Unknown/unstaged,0.042,0.019,0.014,0.099,5,11814014
+Myeloma,70-74 years,Localized,1.478,0.140,1.216,1.780,111,7509895
+Myeloma,70-74 years,Distant,30.653,0.639,29.413,31.931,2302,7509895
+Myeloma,70-74 years,Unknown/unstaged,0.200,0.052,0.112,0.329,15,7509895
+Leukemia,50-54 years,Blank(s),11.701,0.248,11.221,12.197,2230,19057826
+Leukemia,60-64 years,Blank(s),28.153,0.488,27.204,29.126,3326,11814014
+Leukemia,70-74 years,Blank(s),57.058,0.872,55.362,58.793,4285,7509895
+Lymphocytic Leukemia,50-54 years,Blank(s),6.003,0.177,5.660,6.361,1144,19057826
+Lymphocytic Leukemia,60-64 years,Blank(s),16.548,0.374,15.823,17.298,1955,11814014
+Lymphocytic Leukemia,70-74 years,Blank(s),30.400,0.636,29.166,31.673,2283,7509895
+Acute Lymphocytic Leukemia,50-54 years,Blank(s),0.729,0.062,0.613,0.861,139,19057826
+Acute Lymphocytic Leukemia,60-64 years,Blank(s),1.050,0.094,0.873,1.251,124,11814014
+Acute Lymphocytic Leukemia,70-74 years,Blank(s),1.411,0.137,1.156,1.707,106,7509895
+Chronic Lymphocytic Leukemia,50-54 years,Blank(s),4.607,0.155,4.307,4.922,878,19057826
+Chronic Lymphocytic Leukemia,60-64 years,Blank(s),14.534,0.351,13.854,15.238,1717,11814014
+Chronic Lymphocytic Leukemia,70-74 years,Blank(s),27.537,0.606,26.363,28.750,2068,7509895
+Other Lymphocytic Leukemia,50-54 years,Blank(s),0.666,0.059,0.556,0.793,127,19057826
+Other Lymphocytic Leukemia,60-64 years,Blank(s),0.965,0.090,0.796,1.159,114,11814014
+Other Lymphocytic Leukemia,70-74 years,Blank(s),1.451,0.139,1.192,1.751,109,7509895
+Myeloid and Monocytic Leukemia,50-54 years,Blank(s),5.326,0.167,5.003,5.664,1015,19057826
+Myeloid and Monocytic Leukemia,60-64 years,Blank(s),10.538,0.299,9.961,11.140,1245,11814014
+Myeloid and Monocytic Leukemia,70-74 years,Blank(s),23.769,0.563,22.679,24.897,1785,7509895
+Acute Myeloid Leukemia,50-54 years,Blank(s),3.169,0.129,2.922,3.432,604,19057826
+Acute Myeloid Leukemia,60-64 years,Blank(s),6.552,0.235,6.098,7.030,774,11814014
+Acute Myeloid Leukemia,70-74 years,Blank(s),15.659,0.457,14.777,16.581,1176,7509895
+Acute Monocytic Leukemia,50-54 years,Blank(s),0.315,0.041,0.240,0.405,60,19057826
+Acute Monocytic Leukemia,60-64 years,Blank(s),0.626,0.073,0.492,0.786,74,11814014
+Acute Monocytic Leukemia,70-74 years,Blank(s),0.799,0.103,0.610,1.028,60,7509895
+Chronic Myeloid Leukemia,50-54 years,Blank(s),1.705,0.095,1.525,1.901,325,19057826
+Chronic Myeloid Leukemia,60-64 years,Blank(s),3.073,0.161,2.765,3.406,363,11814014
+Chronic Myeloid Leukemia,70-74 years,Blank(s),6.605,0.297,6.036,7.212,496,7509895
+Other Myeloid/Monocytic Leukemia,50-54 years,Blank(s),0.136,0.027,0.089,0.200,26,19057826
+Other Myeloid/Monocytic Leukemia,60-64 years,Blank(s),0.288,0.049,0.199,0.402,34,11814014
+Other Myeloid/Monocytic Leukemia,70-74 years,Blank(s),0.706,0.097,0.529,0.923,53,7509895
+Other Leukemia,50-54 years,Blank(s),0.373,0.044,0.291,0.470,71,19057826
+Other Leukemia,60-64 years,Blank(s),1.067,0.095,0.888,1.270,126,11814014
+Other Leukemia,70-74 years,Blank(s),2.890,0.196,2.518,3.301,217,7509895
+Other Acute Leukemia,50-54 years,Blank(s),0.115,0.025,0.072,0.175,22,19057826
+Other Acute Leukemia,60-64 years,Blank(s),0.398,0.058,0.292,0.529,47,11814014
+Other Acute Leukemia,70-74 years,Blank(s),1.145,0.123,0.916,1.414,86,7509895
+"Aleukemic, Subleukemic and NOS",50-54 years,Blank(s),0.257,0.037,0.190,0.340,49,19057826
+"Aleukemic, Subleukemic and NOS",60-64 years,Blank(s),0.669,0.075,0.529,0.833,79,11814014
+"Aleukemic, Subleukemic and NOS",70-74 years,Blank(s),1.744,0.152,1.458,2.070,131,7509895
+Mesothelioma,50-54 years,Blank(s),0.546,0.054,0.446,0.661,104,19057826
+Mesothelioma,60-64 years,Blank(s),2.226,0.137,1.965,2.512,263,11814014
+Mesothelioma,70-74 years,Blank(s),5.699,0.275,5.172,6.266,428,7509895
+Kaposi Sarcoma,50-54 years,Blank(s),0.756,0.063,0.637,0.890,144,19057826
+Kaposi Sarcoma,60-64 years,Blank(s),0.449,0.062,0.336,0.587,53,11814014
+Kaposi Sarcoma,70-74 years,Blank(s),0.692,0.096,0.517,0.908,52,7509895
+Miscellaneous,50-54 years,Blank(s),12.562,0.257,12.064,13.075,2394,19057826
+Miscellaneous,60-64 years,Blank(s),31.429,0.516,30.426,32.456,3713,11814014
+Miscellaneous,70-74 years,Blank(s),72.851,0.985,70.933,74.807,5471,7509895
