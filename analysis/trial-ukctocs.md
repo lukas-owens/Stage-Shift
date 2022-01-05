@@ -1,22 +1,13 @@
----
-title: "Trial mortality predictions - UKCTOCS"
-author: "Lukas Owens"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
-library(tidyverse)
-source('core.R')
-```
+Trial mortality predictions - UKCTOCS
+================
+Lukas Owens
 
 ### Inputs and staging
 
-Values taken from published trial: 
-  https://pubmed.ncbi.nlm.nih.gov/33991479/
+Values taken from published trial:
+<https://pubmed.ncbi.nlm.nih.gov/33991479/>
 
-```{r}
-
+``` r
 # Read total cases and death count by arm extracted from trial
 trial_counts <- read_csv('../data/trial-ukctocs.csv')
 
@@ -35,12 +26,11 @@ earlylate <- tribble(
   'III',  'A',    
   'IV',   'A'     
 )
-
 ```
 
-
 Group and summarize by early/advanced stage definition
-```{r}
+
+``` r
 trial_counts_ea <- trial_counts %>% 
   left_join(earlylate) %>%
   group_by(arm, late) %>%
@@ -49,23 +39,47 @@ trial_counts_ea <- trial_counts %>%
 trial_counts_ea
 ```
 
+    ## # A tibble: 4 x 6
+    ## # Groups:   arm [2]
+    ##   arm     late  cases deaths case_dist fatality_rate
+    ##   <chr>   <chr> <dbl>  <dbl>     <dbl>         <dbl>
+    ## 1 control A       718    565     0.716         0.787
+    ## 2 control E       285     44     0.284         0.154
+    ## 3 screen  A       320    252     0.619         0.788
+    ## 4 screen  E       197     39     0.381         0.198
+
 ### Model calculations
-Calculate incidence rate ($\lambda_d$), rate of late-stage cancer ($p_1$) and reduction in late-stage ($\alpha$)
-```{r}
+
+Calculate incidence rate (*λ*<sub>*d*</sub>), rate of late-stage cancer
+(*p*<sub>1</sub>) and reduction in late-stage (*α*)
+
+``` r
 lambda_d <- sum(trial_counts_ea %>% filter(arm=='control') %>% pull(cases)) / py_ctrl
 lambda_d
+```
 
+    ## [1] 0.0006358093
+
+``` r
 adv_cases_ctrl   <- trial_counts_ea %>% filter(arm=='control', late=='A') %>% pull(cases)
 adv_cases_screen <- trial_counts_ea %>% filter(arm=='screen', late=='A') %>% pull(cases)
 alpha <- 1 - (adv_cases_screen / py_screen) / (adv_cases_ctrl / py_ctrl)
 alpha
+```
 
+    ## [1] 0.1090536
+
+``` r
 p_1 <- trial_counts_ea %>% filter(arm=='control', late=='A') %>% pull(case_dist)
 p_1
 ```
-Calculate mortality hazards ($\lambda_0$ and $\lambda_1$) implied by case fatality rates in data. 
-```{r}
 
+    ## [1] 0.7158524
+
+Calculate mortality hazards (*λ*<sub>0</sub> and *λ*<sub>1</sub>)
+implied by case fatality rates in data.
+
+``` r
 calc_mortality_rates <- function(ea) {
   fatality_rate <- trial_counts_ea %>% filter(arm == 'control', late==ea) %>% pull(fatality_rate)
   total_cases <- trial_counts_ea %>% filter(arm == 'control', late==ea) %>% pull(cases)
@@ -83,13 +97,11 @@ calc_mortality_rates <- function(ea) {
 }
 lambda_0 <- calc_mortality_rates('E')
 lambda_1 <- calc_mortality_rates('A')
-
 ```
-
 
 ### Final calculations
 
-```{r}
+``` r
 r_0 <- calc_r(trial_length, lambda_d, lambda_0)
 r_1 <- calc_r(trial_length, lambda_d, lambda_1)
 rho <- calc_rho(trial_length, r_0, r_1, p_1)
@@ -100,7 +112,13 @@ output <- tribble(
   r_0, r_1, rho, mrel
 )
 output
-write_csv(output, '../output/trial-calculations-ukctocs.csv')
 ```
 
+    ## # A tibble: 1 x 4
+    ##       r_0     r_1   rho   mrel
+    ##     <dbl>   <dbl> <dbl>  <dbl>
+    ## 1 0.00188 0.00958 0.745 0.0813
 
+``` r
+write_csv(output, '../output/trial-calculations-ukctocs.csv')
+```
