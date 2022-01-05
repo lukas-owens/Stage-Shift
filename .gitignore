@@ -1,6 +1,6 @@
 # .gitignore
 .Rproj.user
 Stage-Shift.Rproj
-analysis/stage-shift/rsconnect
-analysis/stage-shift/.RData
-analysis/stage-shift/.RHistory
+analysis/shiny-app/rsconnect
+analysis/shiny-app/.RData
+analysis/shiny-app/.RHistory

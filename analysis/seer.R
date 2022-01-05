@@ -1,7 +1,7 @@
 library(tidyverse)
 library(ggplot2)
 library(ggrepel)
-source('analysis\\core.R')
+source('analysis/core.R')
 
 # Cancer sites to include
 site_list <- c('Liver', 'Pancreas', 'Ovary', 'Lung', 'Stomach', 
@@ -11,13 +11,13 @@ site_list <- c('Liver', 'Pancreas', 'Ovary', 'Lung', 'Stomach',
 mort_interval <- 5
 
 # Import raw data
-file <- file.path('data', 'Incidence - Hypothetical.csv')
+file <- file.path('data', 'seer-incidence-hypothetical.csv')
 col_names <- c('site', 'ageband', 'stage', 'rate', 'se', 'lci', 'uci', 
                'count', 'population')
 inc_data_raw <- read_csv(file, col_types = 'cccdddddd', 
                          skip = 1, col_names = col_names)
 
-filepath <- file.path('data','Mortality - Hypothetical.csv')
+filepath <- file.path('data','seer-mortality-hypothetical.csv')
 col_names <- c('page', 'site', 'ageband', 'stage', 'interval', 'n', 'median', 
                'survival', 'se', 'lci', 'uci', 'count', 'population')
 mort_data_raw <- read_csv(filepath, col_types = 'cccccdddddd', 
