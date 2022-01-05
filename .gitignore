@@ -2,3 +2,5 @@
 .Rproj.user
 Stage-Shift.Rproj
 analysis/stage-shift/rsconnect
+analysis/stage-shift/.RData
+analysis/stage-shift/.RHistory

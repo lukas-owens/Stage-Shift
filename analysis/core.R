@@ -6,11 +6,11 @@
 # t      | Time period length
 # ld     | Disease incidence hazard
 # lk     | Stage-specifc mortality hazard 
-# K      | Stage-shift to mortality 
+# rho    | Stage-shift to mortality 
 #        |    improvement multiplier
 # r      | Stage-specific cumulative mortality
 #        |    under all-stage incidence
-# Mimp   | Relative mortality improvement
+# Mrel   | Relative mortality improvement
 
 
 # Calculate r-value for a specific stage
@@ -21,9 +21,7 @@ calc_r <- function(t, ld, lk) {
 
 # Calculate stage-shift to mortality improvement multiplier 
 # under early/advanced stage assumption
-calc_K <- function(t, ld, le, la, P) {
-  re <- calc_r(t, ld, le)
-  ra <- calc_r(t, ld, la)
-  return(P * (ra - re) / (P*ra + (1-P)*re))
+calc_rho <- function(t, r0, r1, P) {
+  return(P * (r1 - r0) / (P*r1 + (1-P)*r0))
 }
 
