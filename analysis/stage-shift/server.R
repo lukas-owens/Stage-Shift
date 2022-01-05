@@ -18,7 +18,6 @@ calc_rho <- function(t, ld, l0, l1, P) {
   return(P * (r1 - r0) / (P*r1 + (1-P)*r0))
 }
 
-
 # Main plotting function
 plot_mort_imprv <- function(rho, alpha, incl_actual=FALSE, actual=0, lb=0, ub=0) {
   

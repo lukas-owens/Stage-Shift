@@ -1,0 +1,9 @@
+arm,stage,cases,deaths
+control,I,212,20
+control,II,73,24
+control,III,510,391
+control,IV,208,174
+screen,I,155,23
+screen,II,42,16
+screen,III,242,190
+screen,IV,78,62
