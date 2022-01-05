@@ -1,5 +1,6 @@
 # Server 
 library(tidyverse)
+library(scales)
 library(shiny)
 library(xtable)
 
@@ -24,7 +25,7 @@ plot_mort_imprv <- function(rho, alpha, incl_actual=FALSE, actual=0, lb=0, ub=0)
   end_points <- tibble(alpha = c(0, 1), mortality_reduction = c(0, rho))
   point <- tibble(alpha = c(alpha), mortality_reduction = c(rho * alpha))
   
-  lim <- ifelse(alpha > 0.45, 1.0, 0.5)
+  lim <- 1.0
   output <- ggplot() + 
     geom_segment(aes(x=0, y=0, xend=lim, yend=lim*rho)) +
     geom_segment(aes(x=0, y=0, xend=lim, yend=lim), linetype='dashed') +
@@ -42,7 +43,6 @@ plot_mort_imprv <- function(rho, alpha, incl_actual=FALSE, actual=0, lb=0, ub=0)
       geom_errorbar(aes(x=alpha, ymin=lb, ymax=ub), width=0.02)
     
   }
-  
   return(output)
 }
 
@@ -61,30 +61,26 @@ function(input, output, session) {
     rho <- calc_rho(input$t, input$ld, input$l0, input$l1, input$P)
     mrel <- rho * input$alpha
     
-    table <- data.frame(value = c(format(r0, digits=3),
-                                  format(r1, digits=3),
+    table <- data.frame(value = c(format(r0, digits=2),
+                                  format(r1, digits=2),
                                   format(rho, digits=3),
-                                  format(mrel, digits=2)
+                                  percent(mrel)
     ))
     rownames(table) <- c('r_0',
                          'r_1',
                          '\\rho',
                          'M^{\\mathrm{rel}}')
     LaTeXtab <- print(xtable(table, align=rep("c", ncol(table)+1)), 
-                      floating=FALSE, 
+                      floating=FALSE,
                       include.colnames=FALSE,
-                      tabular.environment="array", 
+                      tabular.environment="array",
                       comment=FALSE, 
                       print.results=FALSE, 
-                      sanitize.rownames.function = function(x) x)
+                      sanitize.rownames.function = function(x) x,
+                      hline.after=NULL)
     tagList(
       withMathJax(),
-      HTML('<center><b>Output</b></center>'),
-      HTML(paste0("$$", LaTeXtab, "$$")),
-      HTML('$$r_k = 1 - \\frac{\\lambda_k e^{-\\lambda_d T} - \\lambda_d e^{-\\lambda_k T}}{\\lambda_k - \\lambda_d}$$'),
-      HTML('$$\\rho= \\frac{(r_1-r_0)p_1}{p_1r_1 + (1-p_1)r_0}$$ '),
-      HTML('$$M^{\\mathrm{rel}}=\\rho\\alpha$$')
+      HTML(paste0("$$", LaTeXtab, "$$"))
     )
   })
-  
 }

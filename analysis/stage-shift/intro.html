@@ -1,0 +1,49 @@
+<h3>Introduction</h3>
+This app implements the framework for evaluating the impact of estimating the impact of stage-shift on disease-specific mortality in cancer screening trials described in Owens et al. The user should read that paper in its entirety before using this tool.
+
+<h3>Summary and Instructions</h3>
+
+<p>This tool allows the user to approximate the reduction in disease-specific mortality associated with the implementation associated with a reduction in late-stage disease following the implementation of a screening protocol in a given population. The inputs needed are as follows: </p>
+
+<table border=1>
+    <tr>
+        <td>Years of follow-up</td> 
+        <td>Length of trial under consideration.</td>
+    </tr>
+    <tr>
+        <td>Incidence hazard rate</td> 
+        <td>Constant hazard of diagnosis with cancer of any stage</td>
+    </tr>
+    <tr>
+        <td>Early-/late-stage mortality hazard</td>
+        <td>Constant hazard of cancer-specific death following diagnosis with early or late stage cancer.</td>
+    </tr>
+    <tr>
+        <td>Percent late-stage cancer</td>
+        <td>Percent of cases diagnosed as late-stage in the absence of screening. Assumed to be constant over the course of the trial.</td>
+    </tr>
+    <tr>
+        <td>Reduction in late-stage cancer </td>
+        <td>Percent of cases that would otherwise be diagnosed as late-stage that are diagnosed early-via screening.</td>
+    </tr>
+</table>
+
+<p>The hazards of diagnosis and post-diagnosis mortality are assumed to be constant over time and equal in the screened- and unscreened-populations. This model assumes no other cause mortality for the duration of the trial.</p>
+
+<p>Given the inputs specified above, the tool calculates the expected relative reduction in mortality \(M^{\mathrm{rel}}\) as of the end of the trial (time \(T\)) using the following formulas.</p>
+
+$$r_k = 1 - \frac{\lambda_k e^{-\lambda_d T} - \lambda_d e^{-\lambda_k T}}{\lambda_k - \lambda_d} \quad (k=0,1)$$
+$$\rho= \frac{(r_1-r_0)p_1}{p_1r_1 + (1-p_1)r_0}$$
+$$M^{\mathrm{rel}}=\rho\alpha$$
+
+<p>A derivation of the formulas above can be found in the cited paper, along with further discussion and interpretation of the inputs and outputs. A table of outputs of the model are displayed in the Output tab, along with a graphical representation of the expected mortality reduction.</p>
+
+
+<h3>Citation</h3>
+Lukas Owens, Roman Gulati, Ruth Etzioni (2022), <i>Stage Shift as an Endpoint in Cancer Screening Trials: Implications for Multi-Cancer Early Detection</i>
+
+<h3>Contact</h3>
+For questions and comments, please contact:<br/>
+Lukas Owens<br/>
+Fred Hutchinson Cancer Research Center<br/>
+<a href=mailto:lowens2@fredhutch.org>lowens2@fredhutch.org</a> <br/>
