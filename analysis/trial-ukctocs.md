@@ -9,7 +9,7 @@ Values taken from published trial:
 
 ``` r
 # Read total cases and death count by arm extracted from trial
-trial_counts <- read_csv('../data/trial-ukctocs.csv')
+trial_counts <- read_csv('../data/trial-data-ukctocs.csv')
 
 # Subjects were followed for 19.25 years (from April 2001 to June 2020)
 trial_length <- 19.25
@@ -22,7 +22,7 @@ py_screen <- 789129
 earlylate <- tribble(
   ~stage, ~late,
   'I',    'E',  
-  'II',   'E',    
+  'II',   'A',    
   'III',  'A',    
   'IV',   'A'     
 )
@@ -43,10 +43,10 @@ trial_counts_ea
     ## # Groups:   arm [2]
     ##   arm     late  cases deaths case_dist fatality_rate
     ##   <chr>   <chr> <dbl>  <dbl>     <dbl>         <dbl>
-    ## 1 control A       718    565     0.716         0.787
-    ## 2 control E       285     44     0.284         0.154
-    ## 3 screen  A       320    252     0.619         0.788
-    ## 4 screen  E       197     39     0.381         0.198
+    ## 1 control A       791    589     0.789        0.745 
+    ## 2 control E       212     20     0.211        0.0943
+    ## 3 screen  A       362    268     0.700        0.740 
+    ## 4 screen  E       155     23     0.300        0.148
 
 ### Model calculations
 
@@ -67,14 +67,14 @@ alpha <- 1 - (adv_cases_screen / py_screen) / (adv_cases_ctrl / py_ctrl)
 alpha
 ```
 
-    ## [1] 0.1090536
+    ## [1] 0.08513264
 
 ``` r
 p_1 <- trial_counts_ea %>% filter(arm=='control', late=='A') %>% pull(case_dist)
 p_1
 ```
 
-    ## [1] 0.7158524
+    ## [1] 0.7886341
 
 Calculate mortality hazards (*λ*<sub>0</sub> and *λ*<sub>1</sub>)
 implied by case fatality rates in data.
@@ -117,7 +117,7 @@ output
     ## # A tibble: 1 x 4
     ##       r_0     r_1   rho   mrel
     ##     <dbl>   <dbl> <dbl>  <dbl>
-    ## 1 0.00188 0.00958 0.745 0.0813
+    ## 1 0.00115 0.00906 0.845 0.0719
 
 ``` r
 write_csv(output, '../output/trial-calculations-ukctocs.csv')
