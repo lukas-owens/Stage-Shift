@@ -1,56 +1,12 @@
-"Page type","Age recode with <1 year olds","Derived AJCC Stage Group, 6th ed (2004-2015)","Summary Interval","N","Median Cause-Spec","Cause-Spec","SE Cause-Spec","Cause-Spec Cum CI Lower","Cause-Spec Cum CI Upper"
-Survival Summary Page,50-54 years,IA,84 mo,930, ,77.188,1.426,74.247,79.841
-Survival Summary Page,50-54 years,IB,84 mo,845,164.00,59.482,1.747,55.969,62.814
-Survival Summary Page,50-54 years,IIA,84 mo,120,92.00,51.588,4.659,42.113,60.256
-Survival Summary Page,50-54 years,IIB,84 mo,486,43.00,39.616,2.331,35.039,44.153
-Survival Summary Page,50-54 years,IIIA,84 mo,1455,24.00,25.384,1.190,23.083,27.743
-Survival Summary Page,50-54 years,IIIB,84 mo,2298,15.00,14.019,0.756,12.577,15.539
-Survival Summary Page,50-54 years,IV,84 mo,7902,7.00,3.387,0.217,2.981,3.831
-Survival Summary Page,50-54 years,NA,84 mo,298, ,87.045,1.963,82.631,90.403
-Survival Summary Page,50-54 years,OCCULT,84 mo,94,20.00,28.022,4.896,18.917,37.835
-Survival Summary Page,50-54 years,UNK Stage,84 mo,784,13.00,16.314,1.400,13.678,19.157
-Survival Summary Page,50-54 years,Blank(s),84 mo,10103,12.00,17.551,0.392,16.790,18.326
-Survival Summary Page,55-59 years,IA,84 mo,1578, ,74.119,1.149,71.786,76.293
-Survival Summary Page,55-59 years,IB,84 mo,1480,124.00,56.392,1.342,53.717,58.977
-Survival Summary Page,55-59 years,IIA,84 mo,249,83.00,49.908,3.285,43.313,56.143
-Survival Summary Page,55-59 years,IIB,84 mo,732,42.00,39.127,1.868,35.460,42.772
-Survival Summary Page,55-59 years,IIIA,84 mo,2103,23.00,23.882,0.979,21.988,25.823
-Survival Summary Page,55-59 years,IIIB,84 mo,3492,14.00,15.438,0.651,14.186,16.738
-Survival Summary Page,55-59 years,IV,84 mo,11362,7.00,3.082,0.175,2.753,3.437
-Survival Summary Page,55-59 years,NA,84 mo,349, ,83.008,2.034,78.581,86.598
-Survival Summary Page,55-59 years,OCCULT,84 mo,193,19.00,24.855,3.351,18.580,31.618
-Survival Summary Page,55-59 years,UNK Stage,84 mo,1344,11.00,13.335,1.003,11.443,15.372
-Survival Summary Page,55-59 years,Blank(s),84 mo,15546,12.00,17.215,0.317,16.599,17.840
-Survival Summary Page,60-64 years,IA,84 mo,2637, ,68.785,0.949,66.884,70.603
-Survival Summary Page,60-64 years,IB,84 mo,2294,93.00,51.860,1.099,49.683,53.990
-Survival Summary Page,60-64 years,IIA,84 mo,299,71.00,43.576,3.006,37.626,49.366
-Survival Summary Page,60-64 years,IIB,84 mo,987,37.00,33.343,1.585,30.254,36.458
-Survival Summary Page,60-64 years,IIIA,84 mo,2740,20.00,20.820,0.828,19.220,22.465
-Survival Summary Page,60-64 years,IIIB,84 mo,4540,13.00,13.842,0.556,12.775,14.953
-Survival Summary Page,60-64 years,IV,84 mo,14693,6.00,2.964,0.152,2.676,3.273
-Survival Summary Page,60-64 years,NA,84 mo,387, ,83.112,1.943,78.900,86.555
-Survival Summary Page,60-64 years,OCCULT,84 mo,281,20.00,24.482,2.810,19.182,30.139
-Survival Summary Page,60-64 years,UNK Stage,84 mo,1887,10.00,11.162,0.796,9.662,12.780
-Survival Summary Page,60-64 years,Blank(s),84 mo,19936,11.00,16.299,0.277,15.761,16.846
-Survival Summary Page,65-69 years,IA,84 mo,3441,163.00,66.579,0.857,64.868,68.228
-Survival Summary Page,65-69 years,IB,84 mo,2948,79.00,49.088,0.984,47.145,51.000
-Survival Summary Page,65-69 years,IIA,84 mo,405,51.00,39.146,2.619,34.007,44.242
-Survival Summary Page,65-69 years,IIB,84 mo,1258,34.00,32.863,1.416,30.103,35.647
-Survival Summary Page,65-69 years,IIIA,84 mo,3298,20.00,18.882,0.740,17.454,20.355
-Survival Summary Page,65-69 years,IIIB,84 mo,5113,12.00,11.419,0.491,10.480,12.402
-Survival Summary Page,65-69 years,IV,84 mo,16052,6.00,2.839,0.147,2.561,3.138
-Survival Summary Page,65-69 years,NA,84 mo,334, ,76.186,2.376,71.140,80.472
-Survival Summary Page,65-69 years,OCCULT,84 mo,402,18.00,19.799,2.219,15.649,24.314
-Survival Summary Page,65-69 years,UNK Stage,84 mo,2459,10.00,10.516,0.702,9.190,11.943
-Survival Summary Page,65-69 years,Blank(s),84 mo,23695,10.00,15.419,0.254,14.925,15.919
-Survival Summary Page,70-74 years,IA,84 mo,3457,132.00,60.854,0.907,59.050,62.605
-Survival Summary Page,70-74 years,IB,84 mo,3160,64.00,44.541,0.965,42.641,46.422
-Survival Summary Page,70-74 years,IIA,84 mo,372,39.00,33.769,2.679,28.571,39.032
-Survival Summary Page,70-74 years,IIB,84 mo,1233,25.00,24.700,1.360,22.078,27.404
-Survival Summary Page,70-74 years,IIIA,84 mo,3197,16.00,14.227,0.691,12.904,15.613
-Survival Summary Page,70-74 years,IIIB,84 mo,5423,10.00,9.408,0.450,8.550,10.315
-Survival Summary Page,70-74 years,IV,84 mo,15293,5.00,2.150,0.134,1.899,2.426
-Survival Summary Page,70-74 years,NA,84 mo,336, ,74.919,2.439,69.755,79.334
-Survival Summary Page,70-74 years,OCCULT,84 mo,461,13.00,16.598,2.089,12.741,20.900
-Survival Summary Page,70-74 years,UNK Stage,84 mo,3062,8.00,8.001,0.572,6.927,9.170
-Survival Summary Page,70-74 years,Blank(s),84 mo,26639,9.00,13.906,0.234,13.451,14.368
+"Page type","Derived AJCC Stage Group, 6th ed (2004-2015)","Summary Interval","N","Median Cause-Spec","Cause-Spec","SE Cause-Spec","Cause-Spec Cum CI Lower","Cause-Spec Cum CI Upper"
+Survival Summary Page,IA,84 mo,12043, ,67.375,0.454,66.476,68.257
+Survival Summary Page,IB,84 mo,10727,86.00,50.304,0.513,49.293,51.306
+Survival Summary Page,IIA,84 mo,1445,59.00,41.758,1.375,39.052,44.438
+Survival Summary Page,IIB,84 mo,4696,34.00,32.662,0.729,31.236,34.094
+Survival Summary Page,IIIA,84 mo,12793,20.00,19.816,0.379,19.079,20.564
+Survival Summary Page,IIIB,84 mo,20866,12.00,12.444,0.249,11.961,12.937
+Survival Summary Page,IV,84 mo,65302,6.00,2.823,0.071,2.685,2.965
+Survival Summary Page,NA,84 mo,1704, ,80.845,0.971,78.858,82.666
+Survival Summary Page,OCCULT,84 mo,1431,17.00,21.112,1.207,18.796,23.523
+Survival Summary Page,UNK Stage,84 mo,9536,10.00,10.818,0.355,10.134,11.526
+Survival Summary Page,Blank(s),84 mo,95919,11.00,15.740,0.126,15.494,15.987
