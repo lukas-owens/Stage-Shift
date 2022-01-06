@@ -1,0 +1,161 @@
+---
+title: "Trial mortality predictions - NLST"
+author: "Lukas Owens"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+library(tidyverse)
+source('core.R')
+```
+
+### Inputs and staging
+
+Values taken from published trial: 
+
+https://www.nejm.org/doi/full/10.1056/nejmoa1102873
+  
+https://pubmed.ncbi.nlm.nih.gov/31995683/
+
+```{r}
+
+# Read total cases and death count by arm extracted from trial
+trial_counts <- read_csv('../data/trial-data-nlst.csv')
+
+# Subjects were followed for 7 year, 5 months (midpoint of recruitment to end of followup)
+trial_length <- (5+7*12)/12
+
+# Person-years in each arm, based on total cases and cases per PY (in abstract)
+py_ctrl   <- 941 / 572 * 100000 
+py_screen <- 1060 / 645 * 100000 
+
+# Define early vs late stage disease
+earlylate <- tribble(
+  ~stage, ~late,
+  'IA',    'E',  
+  'IB',    'E',  
+  'IIA',   'E',
+  'IIB',   'E',    
+  'IIIA',  'A',
+  'IIIB',  'A',    
+  'IV',    'A'     
+)
+
+# Total deaths in control arm
+total_deaths_ctrl <- 309
+```
+
+
+Group and summarize by early/advanced stage definition
+```{r}
+trial_counts_ea <- trial_counts %>% 
+  left_join(earlylate) %>%
+  group_by(arm, late) %>%
+  summarise(cases = sum(cases)) %>%
+  mutate(case_dist = cases / sum(cases))
+trial_counts_ea
+```
+
+
+### Model calculations
+Calculate incidence rate ($\lambda_d$), rate of late-stage cancer ($p_1$) and reduction in late-stage ($\alpha$)
+```{r}
+# Incidence from paper abstract
+lambda_d <- 572 / 100000 
+lambda_d
+
+adv_cases_ctrl   <- trial_counts_ea %>% filter(arm=='control', late=='A') %>% pull(cases)
+adv_cases_screen <- trial_counts_ea %>% filter(arm=='screen', late=='A') %>% pull(cases)
+alpha <- 1 - (adv_cases_screen / py_screen) / (adv_cases_ctrl / py_ctrl)
+alpha
+
+p_1 <- trial_counts_ea %>% filter(arm=='control', late=='A') %>% pull(case_dist)
+p_1
+```
+
+
+Calculate overall mortality hazard implied by case fatality rate 
+```{r}
+fatality_rate <- 309 / 572 # (Deaths/100k) / (Cases/100k) in control arm
+case_hazard <- lambda_d
+
+# Formula for calculating fatality rate from above inputs and a given mortality hazard
+fatality_rate_fn <- function(mort_hazard) {
+  (1-(mort_hazard*exp(-case_hazard*trial_length) - case_hazard*exp(-mort_hazard*trial_length)) / 
+     (mort_hazard - case_hazard)) / (1-exp(-case_hazard*trial_length))
+}
+
+# Determine mortality rate that achieves observed fatality rate 
+f <- function(x) abs(fatality_rate_fn(x) - fatality_rate)
+mort_hazard <- optimize(f, lower=0, upper=5)$minimum
+mort_hazard
+```
+### Calculate calibrated SEER mortality hazards
+Import SEER data
+```{r}
+# Import and clean raw data
+seer <- read_csv('../data/seer-mortality-nlst.csv', 
+                 skip=1,
+                 col_names = c('page', 'stage', 'interval', 'n', 'median', 'surv', 'se', 'lb', 'ub')) %>%
+  mutate(surv = surv/100) %>%
+  left_join(earlylate) %>%
+  select(stage, late, n, surv)
+seer
+
+# Group by early / late
+seer_grouped <- seer %>%
+  filter(!is.na(late)) %>%
+  group_by(late) %>%
+  summarise(surv = weighted.mean(surv, n), n=sum(n))
+  
+# Calculate mortality hazards
+seer_hazards <- seer_grouped %>% mutate(hazard_raw = -log(surv) / trial_length )
+seer_hazards
+
+```
+
+Calculate stage-specific mortality hazards ($\lambda_0$ and $\lambda_1$) calibrated to SEER data 
+
+```{r}
+# Function for calculating mortality hazard given an calibration factor
+hazard_adj_fn <- function(adj_factor) {
+  adj_surv <- seer_hazards %>% 
+    mutate(hazard_adj = hazard_raw * adj_factor,
+                          surv_adj = exp(-hazard_adj*trial_length)) %>%
+    summarise(surv_adj = weighted.mean(surv_adj, n)) %>%
+    pull()
+  adj_hazard <- -log(adj_surv) / trial_length
+  return(adj_hazard)
+}
+
+f <- function(x) abs(hazard_adj_fn(x) - mort_hazard)
+adj_factor <- optimize(f, lower=0, upper=5)$minimum
+adj_factor
+
+lambda_0 <- adj_factor * seer_hazards %>% filter(late=='E') %>% pull(hazard_raw)
+lambda_0
+lambda_1 <- adj_factor * seer_hazards %>% filter(late=='A') %>% pull(hazard_raw)
+lambda_1
+
+```
+
+
+
+### Final calculations
+
+```{r}
+r_0 <- calc_r(trial_length, lambda_d, lambda_0)
+r_1 <- calc_r(trial_length, lambda_d, lambda_1)
+rho <- calc_rho(trial_length, r_0, r_1, p_1)
+mrel <- rho * alpha
+
+output <- tribble(
+  ~r_0, ~r_1, ~rho, ~mrel,
+  r_0, r_1, rho, mrel
+)
+output
+write_csv(output, '../output/trial-calculations-nlst.csv')
+```
+
+

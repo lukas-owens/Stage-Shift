@@ -1,0 +1,15 @@
+﻿arm,stage,cases
+control,IA,196
+control,IB,93
+control,IIA,32
+control,IIB,42
+control,IIIA,109
+control,IIIB,122
+control,IV,335
+screen,IA,416
+screen,IB,104
+screen,IIA,35
+screen,IIB,38
+screen,IIIA,99
+screen,IIIB,122
+screen,IV,226
