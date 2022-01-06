@@ -1,10 +1,9 @@
 "Page type","Derived AJCC M, 6th ed (2004-2015)","Summary Interval","N","Median Cause-Spec","Cause-Spec","SE Cause-Spec","Cause-Spec Cum CI Lower","Cause-Spec Cum CI Upper"
-Survival Summary Page,M0,132 mo,220098, ,94.706,0.052,94.604,94.807
-Survival Summary Page,M1,132 mo,0, , , , , 
-Survival Summary Page,M1a,132 mo,387,61.00,31.216,2.635,26.131,36.423
-Survival Summary Page,M1b,132 mo,4573,38.00,18.960,0.672,17.662,20.296
-Survival Summary Page,M1c,132 mo,1748,26.00,15.613,1.004,13.704,17.637
-Survival Summary Page,M1NOS,132 mo,213,41.00,16.040,3.117,10.504,22.622
-Survival Summary Page,NA,132 mo,34,54.00,37.237,9.202,19.929,54.606
-Survival Summary Page,MX,132 mo,9144, ,83.702,0.428,82.844,84.522
-Survival Summary Page,Blank(s),132 mo,144686, ,91.068,0.079,90.913,91.222
+Survival Summary Page,M0,132 mo,152830, ,95.198,0.059,95.081,95.312
+Survival Summary Page,M1a,132 mo,261,64.00,32.849,3.178,26.714,39.106
+Survival Summary Page,M1b,132 mo,2925,39.00,19.088,0.839,17.473,20.760
+Survival Summary Page,M1c,132 mo,1188,27.00,16.731,1.235,14.391,19.225
+Survival Summary Page,M1NOS,132 mo,138,39.00,14.729,3.682,8.428,22.694
+Survival Summary Page,NA,132 mo,27,40.00,29.898,10.624,11.653,50.755
+Survival Summary Page,MX,132 mo,5741, ,84.937,0.514,83.898,85.914
+Survival Summary Page,Blank(s),132 mo,94698, ,91.957,0.092,91.774,92.136

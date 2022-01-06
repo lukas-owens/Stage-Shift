@@ -1,0 +1,11 @@
+arm,stage,cases
+control,low,2249
+control,intermediate,1442
+control,high,673
+control,metastatic,424
+control,unknown,608
+screen,low,4198
+screen,intermediate,1495
+screen,high,515
+screen,metastatic,180
+screen,unknown,575
