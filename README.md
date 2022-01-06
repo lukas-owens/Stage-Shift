@@ -28,19 +28,19 @@ This part of the analysis uses data from three published trials (NLST for lung c
 
 - NLST
   - Data
-    - Trial data: [trial-data-nlst.csv](trial-data-nlst.csv)
-    - Supplemental SEER data: [seer-mortality-nlst.csv](seer-mortality-nlst.csv)
+     - Trial data: [trial-data-nlst.csv](trial-data-nlst.csv)
+     - Supplemental SEER data: [seer-mortality-nlst.csv](seer-mortality-nlst.csv)
   - Analysis
     - Code: [analysis/trial-nlst.Rmd](analysis/trial-nlst.Rmd)
     - Summary: [analysis/trial-nlst.md](analysis/trial-nlst.md)
  - ERSPC
-  - Data
-    - Trial data: [trial-data-erspc.csv](trial-data-erspc.csv)
-    - Supplemental SEER data: [seer-mortality-erspc.csv](seer-mortality-erspc.csv)
-  - Analysis
-    - Code: [analysis/trial-erspc.Rmd](analysis/trial-erspc.Rmd)
-    - Summary: [analysis/trial-erspc.md](analysis/trial-erspc.md)
- - UKCTOCS
+   - Data
+     - Trial data: [trial-data-erspc.csv](trial-data-erspc.csv)
+     - Supplemental SEER data: [seer-mortality-erspc.csv](seer-mortality-erspc.csv)
+   - Analysis
+     - Code: [analysis/trial-erspc.Rmd](analysis/trial-erspc.Rmd)
+     - Summary: [analysis/trial-erspc.md](analysis/trial-erspc.md)
+- UKCTOCS
   - Data
     - Trial data: [trial-data-ukctocs.csv](trial-data-ukctocs.csv)
     - Supplemental SEER data: not applicable
