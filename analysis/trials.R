@@ -9,7 +9,6 @@ trial_data <- rbind(
   read_csv('../output/trial-calculations-ukctocs.csv'))
 
 # Function for plotting single trial results
-# plot_mort_imprv <- function(slope, alpha, actual, lb, ub, title) {
 plot_mort_imprv <- function(trialname, title) {
   row <- trial_data %>% filter(trial == trialname)
   slope <- row %>% pull(rho)
