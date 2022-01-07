@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+## Overview
+This code supports the paper "Stage Shift as an Endpoint in Cancer Screening Trials: Implications for Multi-Cancer Early Detection". It contains two parallel analyses using the framework described in that paper:
+- Hypothetical trials (covering 7 common cancer types)
+- Real-world trials (examining the NLST, the ERSPC, and the UKCTOCS
 
-You can use the [editor on GitHub](https://github.com/lukas-owens/Stage-Shift/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Additionally, a R shiny interface implements the framework, described further below.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Hypothetical Trials
+### Data
+This part of the analysis relies on incidence and survival data from SEER. The queries and raw data are saved at the locations below.
 
-### Markdown
+SEER queries
+- [seer-queries/incidence-rates-hypothetical.si](seer-queries/incidence-rates-hypothetical.si)
+- [seer-queries/mortality-rates-hypothetical.ss](seer-queries/mortality-rates-hypothetical.ss)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+SEER Data
+- [data/seer-incidence-hypthetical.csv](data/seer-incidence-hypthetical.csv)
+- [data/seer-mortality-hypthetical.csv](data/seer-mortality-hypthetical.csv)
 
-```markdown
-Syntax highlighted code block
+### Analysis
+The SEER data is run through the model in [analysis/seer.R](analysis/seer.R), which calculates the expected mortality improvement for each hypothetical trial. The main output is saved Table 1 and Figure 1 (saved in the [output](output) folder).
 
-# Header 1
-## Header 2
-### Header 3
+## Real-world Trials
+This part of the analysis uses data from three published trials (NLST for lung cancer, ERSPC for prostate cancer, and UKCTOCS for ovarian cancer) to predict the mortality improvement from screening. The data and analysis for each trial are linked below. The results from the three trials are combined and visualized by [analysis/trials.R](analysis/trials.R).
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+- NLST
+  - Data
+     - Trial data: [trial-data-nlst.csv](trial-data-nlst.csv)
+     - Supplemental SEER data: [seer-mortality-nlst.csv](seer-mortality-nlst.csv)
+  - Analysis
+    - Code: [analysis/trial-nlst.Rmd](analysis/trial-nlst.Rmd)
+    - Summary: [analysis/trial-nlst.md](analysis/trial-nlst.md)
+ - ERSPC
+   - Data
+     - Trial data: [trial-data-erspc.csv](trial-data-erspc.csv)
+     - Supplemental SEER data: [seer-mortality-erspc.csv](seer-mortality-erspc.csv)
+   - Analysis
+     - Code: [analysis/trial-erspc.Rmd](analysis/trial-erspc.Rmd)
+     - Summary: [analysis/trial-erspc.md](analysis/trial-erspc.md)
+- UKCTOCS
+  - Data
+    - Trial data: [trial-data-ukctocs.csv](trial-data-ukctocs.csv)
+    - Supplemental SEER data: not applicable
+  - Analysis
+    - Code: [analysis/trial-ukctocs.Rmd](analysis/trial-ukctocs.Rmd)
+    - Summary: [analysis/trial-ukctocs.md](analysis/trial-ukctocs.md)
 
-**Bold** and _Italic_ and `Code` text
+## Shiny App
+We also created a Shiny app that implements the same framework used above in an interactive UI. This is saved in the [analysis/shiny-app](analysis/shiny-app) folder and is currently published at https://lukasowens.shinyapps.io/stage-shift/
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lukas-owens/Stage-Shift/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
