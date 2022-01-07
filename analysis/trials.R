@@ -2,8 +2,22 @@ library(tidyverse)
 library(ggplot2)
 library(gridExtra)
 
+# Read data from split trials calculations
+trial_data <- rbind(
+  read_csv('../output/trial-calculations-nlst.csv'),
+  read_csv('../output/trial-calculations-erspc.csv'),
+  read_csv('../output/trial-calculations-ukctocs.csv'))
 
-plot_mort_imprv <- function(slope, alpha, actual, lb, ub, title) {
+# Function for plotting single trial results
+# plot_mort_imprv <- function(slope, alpha, actual, lb, ub, title) {
+plot_mort_imprv <- function(trialname, title) {
+  row <- trial_data %>% filter(trial == trialname)
+  slope <- row %>% pull(rho)
+  alpha <- row %>% pull(alpha)
+  actual <- row %>% pull(actual)
+  lb <- max(row %>% pull(lb),0) # Floor at 0 for display
+  ub <- row %>% pull(ub)
+  
   end_points <- tibble(alpha = c(0, 1), mortality_reduction = c(0, slope))
   point <- tibble(alpha = c(alpha), mortality_reduction = c(slope * alpha))
   
@@ -26,12 +40,12 @@ plot_mort_imprv <- function(slope, alpha, actual, lb, ub, title) {
   return(output)
 }
 
+# Plot each trial
+g1 <- plot_mort_imprv('nlst', title="Lung Cancer - NLST") 
+g2 <- plot_mort_imprv('erspc', title="Prostate Cancer - ERSPC") 
+g3 <- plot_mort_imprv('ukctocs', title="Ovarian Cancer - UKCTOCS") 
 
-g1 <- plot_mort_imprv(slope=0.4754, alpha=0.21, actual=0.20, lb=0.07, ub=0.27, title="Lung Cancer - NLST") 
-g2 <- plot_mort_imprv(slope=0.4172, alpha=0.48, actual=0.21, lb=0.09, ub=0.32, title="Prostate Cancer - ERSPC") 
-g3 <- plot_mort_imprv(slope=0.7100, alpha=0.11, actual=0.04, lb=0.00, ub=0.17, title="Ovarian Cancer - UKCTOCS") 
-
-
-pdf(file='output\\figure2.pdf', width=6, height=5)
+# Save output
+pdf(file='../output/figure2.pdf', width=6, height=5)
 grid.arrange(g1, g2, g3, nrow=2)
 dev.off()

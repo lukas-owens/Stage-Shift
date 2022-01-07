@@ -32,6 +32,11 @@ earlylate <- tribble(
 
 # Total deaths in control arm (Figure 1)
 total_deaths_ctrl <- 462
+
+# Actual observed mortality reduction (and upper/lower CI bounds)
+actual <- 0.21
+lb <- 0.09
+ub <- 0.32
 ```
 
 Group and summarize by early/advanced stage definition
@@ -207,16 +212,16 @@ rho <- calc_rho(trial_length, r_0, r_1, p_1)
 mrel <- rho * alpha
 
 output <- tribble(
-  ~r_0, ~r_1, ~rho, ~mrel,
-  r_0, r_1, rho, mrel
+  ~trial, ~lambda_d, ~lambda_0, ~lambda_1, ~p_1, ~rho, ~alpha, ~mrel, ~actual, ~lb, ~ub,
+  'erspc', lambda_d, lambda_0, lambda_1, p_1, rho, alpha, mrel, actual, lb, ub
 )
 output
 ```
 
-    ## # A tibble: 1 x 4
-    ##       r_0    r_1   rho  mrel
-    ##     <dbl>  <dbl> <dbl> <dbl>
-    ## 1 0.00447 0.0498 0.444 0.214
+    ## # A tibble: 1 x 11
+    ##   trial lambda_d lambda_0 lambda_1    p_1   rho alpha  mrel actual    lb    ub
+    ##   <chr>    <dbl>    <dbl>    <dbl>  <dbl> <dbl> <dbl> <dbl>  <dbl> <dbl> <dbl>
+    ## 1 erspc  0.00578   0.0137    0.461 0.0786 0.444 0.482 0.214   0.21  0.09  0.32
 
 ``` r
 write_csv(output, '../output/trial-calculations-erspc.csv')

@@ -26,6 +26,11 @@ earlylate <- tribble(
   'III',  'A',    
   'IV',   'A'     
 )
+
+# Actual observed mortality reduction (and upper/lower CI bounds)
+actual <- 0.04
+lb <- -0.10
+ub <- 0.17
 ```
 
 Group and summarize by early/advanced stage definition
@@ -108,16 +113,16 @@ rho <- calc_rho(trial_length, r_0, r_1, p_1)
 mrel <- rho * alpha
 
 output <- tribble(
-  ~r_0, ~r_1, ~rho, ~mrel,
-  r_0, r_1, rho, mrel
+  ~trial, ~lambda_d, ~lambda_0, ~lambda_1, ~p_1, ~rho, ~alpha, ~mrel, ~actual, ~lb, ~ub,
+  'ukctocs', lambda_d, lambda_0, lambda_1, p_1, rho, alpha, mrel, actual, lb, ub
 )
 output
 ```
 
-    ## # A tibble: 1 x 4
-    ##       r_0     r_1   rho   mrel
-    ##     <dbl>   <dbl> <dbl>  <dbl>
-    ## 1 0.00115 0.00906 0.845 0.0719
+    ## # A tibble: 1 x 11
+    ##   trial  lambda_d lambda_0 lambda_1   p_1   rho  alpha   mrel actual    lb    ub
+    ##   <chr>     <dbl>    <dbl>    <dbl> <dbl> <dbl>  <dbl>  <dbl>  <dbl> <dbl> <dbl>
+    ## 1 ukcto~ 0.000636   0.0104    0.198 0.789 0.845 0.0851 0.0719   0.04  -0.1  0.17
 
 ``` r
 write_csv(output, '../output/trial-calculations-ukctocs.csv')

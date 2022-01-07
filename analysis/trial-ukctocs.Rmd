@@ -36,6 +36,11 @@ earlylate <- tribble(
   'IV',   'A'     
 )
 
+# Actual observed mortality reduction (and upper/lower CI bounds)
+actual <- 0.04
+lb <- -0.10
+ub <- 0.17
+
 ```
 
 
@@ -96,8 +101,8 @@ rho <- calc_rho(trial_length, r_0, r_1, p_1)
 mrel <- rho * alpha
 
 output <- tribble(
-  ~r_0, ~r_1, ~rho, ~mrel,
-  r_0, r_1, rho, mrel
+  ~trial, ~lambda_d, ~lambda_0, ~lambda_1, ~p_1, ~rho, ~alpha, ~mrel, ~actual, ~lb, ~ub,
+  'ukctocs', lambda_d, lambda_0, lambda_1, p_1, rho, alpha, mrel, actual, lb, ub
 )
 output
 write_csv(output, '../output/trial-calculations-ukctocs.csv')
