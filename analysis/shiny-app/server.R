@@ -3,6 +3,8 @@ library(tidyverse)
 library(scales)
 library(shiny)
 library(xtable)
+library(latex2exp)
+library(glue)
 
 # Helper functions
 
@@ -29,11 +31,13 @@ plot_mort_imprv <- function(rho, alpha, incl_actual=FALSE, actual=0, lb=0, ub=0)
   output <- ggplot() + 
     geom_segment(aes(x=0, y=0, xend=lim, yend=lim*rho)) +
     geom_segment(aes(x=0, y=0, xend=lim, yend=lim), linetype='dashed') +
+    geom_segment(aes(x=alpha, y=0, xend=alpha, yend=alpha*rho), linetype=3) +
+    geom_segment(aes(x=0, y=alpha*rho, xend=alpha, yend=alpha*rho), linetype=3) +
     geom_point(aes(x=alpha, y=(alpha*rho)), size=5, shape=1) +
-    scale_y_continuous(limits = c(0,lim), labels = scales::percent_format(accuracy = 5L)) +
-    scale_x_continuous(limits = c(0,lim), labels = scales::percent_format(accuracy = 5L)) + 
-    xlab("Reduction in late-stage disease") + 
-    ylab("Reduction in mortality") +
+    scale_y_continuous(limits = c(0,lim), labels = scales::percent_format(accuracy = 5L), expand=c(0,0)) +
+    scale_x_continuous(limits = c(0,lim), labels = scales::percent_format(accuracy = 5L), expand=c(0,0)) + 
+    xlab(TeX("Reduction in late-stage disease $(\\alpha)$")) + 
+    ylab(TeX("Reduction in mortality $(M^{rel})$")) +
     theme_classic()  +
     theme(text=element_text(size=14))
   
@@ -56,31 +60,29 @@ function(input, output, session) {
   })
   
   output$table <- renderUI({
+    alpha <- input$alpha
     r0 <- calc_r(input$t, input$ld, input$l0)
     r1 <- calc_r(input$t, input$ld, input$l1)
     rho <- calc_rho(input$t, input$ld, input$l0, input$l1, input$P)
     mrel <- rho * input$alpha
     
-    table <- data.frame(value = c(format(r0, digits=2),
-                                  format(r1, digits=2),
-                                  format(rho, digits=3),
-                                  percent(mrel)
-    ))
-    rownames(table) <- c('r_0',
-                         'r_1',
-                         '\\rho',
-                         'M^{\\mathrm{rel}}')
-    LaTeXtab <- print(xtable(table, align=rep("c", ncol(table)+1)), 
-                      floating=FALSE,
-                      include.colnames=FALSE,
-                      tabular.environment="array",
-                      comment=FALSE, 
-                      print.results=FALSE, 
-                      sanitize.rownames.function = function(x) x,
-                      hline.after=NULL)
+    
+    s_rho <- format(rho, digits=3)
+    s_alpha <- percent(alpha, suffix='')
+    s_mrel <- percent(mrel, suffix='')
+    outstring <- '<br/>With a reduction in late-stage cancers of \\(\\alpha=s_alpha\\%%\\), 
+                  the expected reduction in mortality is \\( M^{\\mathrm{rel}}=s_mrel\\%%\\). 
+                  The slope of the line above is \\(\\rho=s_rho\\).'
+    
+    outstring <- str_replace(outstring, 's_alpha', s_alpha)
+    outstring <- str_replace(outstring, 's_mrel', s_mrel)
+    outstring <- str_replace(outstring, 's_rho', s_rho)
     tagList(
       withMathJax(),
-      HTML(paste0("$$", LaTeXtab, "$$"))
+      HTML(outstring)
     )
   })
 }
+
+
+

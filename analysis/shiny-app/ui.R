@@ -36,19 +36,19 @@ fixedPage(
       numericInput('l1', 
                    'Late-stage mortality hazard \\((\\lambda_1)\\)',
                    min   = 0.00,
-                   value = 0.30,
+                   value = 0.25,
                    step  = 0.01),
       sliderInput('P', 
                    'Percent late-stage cancer \\((p_1)\\)',
                    min   = 0.00,
                    max   = 1.00,
-                   value = 0.40,
+                   value = 0.30,
                    step  = 0.01),
       sliderInput('alpha', 
                   'Reduction in late-stage cancer \\((\\alpha)\\)',
                   min   = 0.00,
                   max   = 1.00,
-                  value = 0.25,
+                  value = 0.40,
                   step  = 0.01)
     ),
     
@@ -56,11 +56,12 @@ fixedPage(
     # Main panel and graph
     mainPanel(tabsetPanel(
       tabPanel('Intro', HTML(intro_text)),
-      tabPanel('Output', fluidRow(
-               column(6,plotOutput('plot', width=500, height=400)), 
-               column(6,uiOutput('table')))
-      )
-    )
+      
+      tabPanel('Output', 
+               plotOutput('plot', width=500, height=400),
+               uiOutput('table'),
+      style='width: 600px')
   )
+)
 )
 )
